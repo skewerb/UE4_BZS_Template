@@ -1,0 +1,80 @@
+﻿Log file open, 01/14/15 18:08:04
+LogInit:Display: Running engine for game: BZS_Template
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCExample_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.15-02.08.04:469][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.15-02.08.04:521][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.15-02.08.04:541][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.15-02.08.04:549][  0]LogInit: Object subsystem initialized
+[2015.01.15-02.08.04:551][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.15-02.08.04:551][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Stevo/Desktop/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.15-02.08.04:551][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.15-02.08.04:551][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Stevo/Desktop/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.15-02.08.04:551][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.15-02.08.04:551][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.15-02.08.04:551][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.15-02.08.04:555][  0]LogInit: Computer: STEVO-PC
+[2015.01.15-02.08.04:555][  0]LogInit: User: Stevo
+[2015.01.15-02.08.04:555][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.15-02.08.04:555][  0]LogInit: High frequency timer resolution =3.323579 MHz
+[2015.01.15-02.08.04:555][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.01.15-02.08.04:556][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.15-02.08.04:556][  0]LogMemory: Process Physical Memory: 49.16 MB used, 49.16 MB peak
+[2015.01.15-02.08.04:556][  0]LogMemory: Process Virtual Memory: 25.09 MB used, 25.10 MB peak
+[2015.01.15-02.08.04:556][  0]LogMemory: Physical Memory: 4767.46 MB used, 8153.19 MB total
+[2015.01.15-02.08.04:556][  0]LogMemory: Virtual Memory: 271.26 MB used, 134217728.00 MB total
+[2015.01.15-02.08.04:576][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.01.15-02.08.04:576][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.01.15-02.08.04:577][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.15-02.08.04:577][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.15-02.08.04:577][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.15-02.08.04:581][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.15-02.08.04:590][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.15-02.08.04:644][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.15-02.08.04:781][  0]LogContentStreaming: Texture pool size is 700.000000MB
+[2015.01.15-02.08.09:577][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.15-02.08.09:959][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.15-02.08.10:003][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.15-02.08.10:038][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.15-02.08.10:038][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.15-02.08.10:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Stevo/Desktop/BZS_Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.15-02.08.10:038][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.15-02.08.10:100][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.15-02.08.10:112][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stevo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.15-02.08.10:223][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.15-02.08.10:327][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.15-02.08.10:327][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.15-02.08.10:588][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.15-02.08.10:635][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.15-02.08.11:336][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Movies/Default_Startup.mp4
+[2015.01.15-02.08.11:450][  0]SourceControl: Info Source control is disabled
+[2015.01.15-02.08.11:450][  0]SourceControl: Info Source control is disabled
+[2015.01.15-02.08.11:456][  0]SourceControl: Info Source control is disabled
+[2015.01.15-02.08.11:484][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Stevo/Desktop/BZS_Template/Binaries/Win64. Error: 0
+[2015.01.15-02.08.11:525][  0]LogObj: 23338 objects as part of root set at end of initial load.
+[2015.01.15-02.08.11:525][  0]LogUObjectAllocator: 4907960 out of 0 bytes used by permanent object pool.
+[2015.01.15-02.08.11:577][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.01.15-02.08.11:577][  0]LogEngine: Initializing Engine...
+[2015.01.15-02.08.13:577][  0]LogHMD:Warning: No Oculus HMD detected! Is Oculus Run-Time installed and service is running?
+[2015.01.15-02.08.13:588][  0]LogHMD: Oculus shutdown.
+[2015.01.15-02.08.13:699][  0]LogInit: XAudio2 using 'Speakers (2- C-Media USB Audio Device   )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.15-02.08.13:706][  0]LogInit: FAudioDevice initialized.
+[2015.01.15-02.08.13:708][  0]LogInit: Texture streaming: Enabled
+[2015.01.15-02.08.13:763][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.15-02.08.13:763][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.15-02.08.13:764][  0]LogAnalytics: SetUserId 5a045227e89f0642cba4625644d0354a
+[2015.01.15-02.08.13:764][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.15-02.08.13:781][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set (Priority Code < GameSetting)
+[2015.01.15-02.08.13:781][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCExample_Map?Name=Player
+[2015.01.15-02.08.13:781][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCExample_Map?Name=Player
+[2015.01.15-02.08.13:792][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.15-02.08.13:792][  0]LogMemory: Process Physical Memory: 278.21 MB used, 317.88 MB peak
+[2015.01.15-02.08.13:792][  0]LogMemory: Process Virtual Memory: 223.50 MB used, 268.12 MB peak
+[2015.01.15-02.08.13:792][  0]LogMemory: Physical Memory: 4972.11 MB used, 

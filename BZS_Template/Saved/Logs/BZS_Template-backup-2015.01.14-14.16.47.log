@@ -1,0 +1,1889 @@
+﻿Log file open, 01/14/15 13:06:16
+LogInit:Display: Running engine for game: BZS_Template
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.14-21.06.16:435][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.14-21.06.16:494][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.14-21.06.16:527][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.14-21.06.16:534][  0]LogInit: Object subsystem initialized
+[2015.01.14-21.06.16:535][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.14-21.06.16:535][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Stevo/Desktop/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.14-21.06.16:535][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.14-21.06.16:535][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Stevo/Desktop/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.14-21.06.16:536][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.14-21.06.16:536][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.14-21.06.16:536][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.14-21.06.16:540][  0]LogInit: Computer: STEVO-PC
+[2015.01.14-21.06.16:540][  0]LogInit: User: Stevo
+[2015.01.14-21.06.16:540][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.14-21.06.16:540][  0]LogInit: High frequency timer resolution =3.323579 MHz
+[2015.01.14-21.06.16:540][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.01.14-21.06.16:541][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.06.16:541][  0]LogMemory: Process Physical Memory: 49.16 MB used, 49.16 MB peak
+[2015.01.14-21.06.16:541][  0]LogMemory: Process Virtual Memory: 25.07 MB used, 25.07 MB peak
+[2015.01.14-21.06.16:541][  0]LogMemory: Physical Memory: 2115.98 MB used, 8153.19 MB total
+[2015.01.14-21.06.16:541][  0]LogMemory: Virtual Memory: 271.26 MB used, 134217728.00 MB total
+[2015.01.14-21.06.16:559][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.01.14-21.06.16:559][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.01.14-21.06.16:560][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.14-21.06.16:560][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.14-21.06.16:560][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.14-21.06.16:562][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.14-21.06.16:570][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.14-21.06.16:623][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.14-21.06.16:740][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.14-21.06.21:584][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.14-21.06.21:940][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.14-21.06.21:983][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.14-21.06.22:017][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.14-21.06.22:017][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.14-21.06.22:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Stevo/Desktop/BZS_Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.14-21.06.22:017][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.14-21.06.22:075][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.14-21.06.22:087][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stevo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.14-21.06.22:194][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.14-21.06.22:317][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.14-21.06.22:317][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.14-21.06.22:625][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.14-21.06.22:669][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.14-21.06.23:300][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.14-21.06.23:438][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Stevo/Desktop/BZS_Template/Binaries/Win64. Error: 0
+[2015.01.14-21.06.23:558][  0]SourceControl: Info Source control is disabled
+[2015.01.14-21.06.23:558][  0]SourceControl: Info Source control is disabled
+[2015.01.14-21.06.23:563][  0]SourceControl: Info Source control is disabled
+[2015.01.14-21.06.23:660][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.14-21.06.23:660][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.01.14-21.06.23:708][  0]LogEngine: Initializing Engine...
+[2015.01.14-21.06.23:841][  0]LogInit: XAudio2 using 'Speakers (2- C-Media USB Audio Device   )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.14-21.06.23:852][  0]LogInit: FAudioDevice initialized.
+[2015.01.14-21.06.23:868][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.14-21.06.23:891][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.14-21.06.23:896][  0]LogInit: Texture streaming: Enabled
+[2015.01.14-21.06.23:918][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.14-21.06.23:918][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.14-21.06.23:919][  0]LogAnalytics: SetUserId 5a045227e89f0642cba4625644d0354a
+[2015.01.14-21.06.23:919][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.14-21.06.23:931][  0]LogInit: Transaction tracking system initialized
+[2015.01.14-21.06.24:006][  0]BlueprintLog: New page: Editor Load
+[2015.01.14-21.06.24:032][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.01.14-21.06.24:032][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.14-21.06.24:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.14-21.06.24:743][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.14-21.06.24:885][  0]LogConsoleResponse:Display: 
+[2015.01.14-21.06.24:925][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.14-21.06.25:082][  0]SourceControl: Info Source control is disabled
+[2015.01.14-21.06.25:082][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.14-21.06.25:082][  0]LightingResults: New page: Lighting Build
+[2015.01.14-21.06.25:090][  0]MapCheck: New page: Map Check
+[2015.01.14-21.06.25:090][  0]LightingResults: New page: Lighting Build
+[2015.01.14-21.06.25:097][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000718F4AFE20
+[2015.01.14-21.06.25:394][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.14-21.06.25:394][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.06.25:395][  0]Cmd: MAP CHECKDEP
+[2015.01.14-21.06.25:395][  0]MapCheck: New page: Example_Map - Jan 14, 2015, 5:06:25 AM
+[2015.01.14-21.06.25:468][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.306ms to complete.
+[2015.01.14-21.06.25:468][  0]LogFileHelpers: Loading map 'Example_Map' took 0.386
+[2015.01.14-21.06.25:544][  0]LogCollectionManager: Loaded 0 collections in 0.000949 seconds
+[2015.01.14-21.06.25:638][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.14-21.06.25:644][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.14-21.06.25:671][  0]LogLoad: Full Startup: 10.06 seconds (BP compile: 0.05 seconds)
+[2015.01.14-21.06.26:157][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.01.14-21.06.26:682][  2]LogAssetRegistry: Asset discovery search completed in 2.6618 seconds
+[2015.01.14-21.06.29:893][185]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.14-21.06.31:538][343]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.14-21.06.31:538][343]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:06:31 AM)
+[2015.01.14-21.06.31:564][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025593s)
+[2015.01.14-21.06.31:565][343]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2015.01.14-21.06.31:565][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.026646s)
+[2015.01.14-21.06.31:708][343]LogLinker:Warning: Asset '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.14-21.06.31:919][343]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2015.01.14-21.06.31:930][343]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2015.01.14-21.06.31:931][343]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.01.14-21.06.31:933][343]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.06.31:935][343]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.06.31:936][343]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.06.31
+[2015.01.14-21.06.31:937][343]LogWorld: Bringing up level for play took: 0.001572
+[2015.01.14-21.06.31:939][343]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.762
+[2015.01.14-21.06.34:169][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007189202660
+[2015.01.14-21.06.35:139][668]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.14-21.06.36:677][745]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.06.36:680][745]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.06.36:736][745]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.06.36:737][745]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.04:227][402]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.07.04:259][402]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection
+[2015.01.14-21.07.04:275][402]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.04:276][402]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.04:361][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.01.14-21.07.04:361][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.14-21.07.04:410][402]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.04:411][402]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.04:439][402]LogBlueprint:Warning: [compiler] Warning [0048.83] Compile of MyCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 197 ms]
+[2015.01.14-21.07.04:439][402]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection
+[2015.01.14-21.07.04:439][402]BlueprintEditorCompileResults:Warning: Warning [0048.83] Compile of MyCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 197 ms]
+[2015.01.14-21.07.13:219][925]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.07.13:269][925]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.13:270][925]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.13:320][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.14-21.07.13:369][925]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.13:370][925]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.13:398][925]BlueprintEditorCompileResults: Info [0057.79] Compile of MyCharacter successful! [in 163 ms]
+[2015.01.14-21.07.13:978][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.07.14:282][952]LogSavePackage: Save=297.701355ms
+[2015.01.14-21.07.14:282][952]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter92F876BA40C78BE1E39B5A910B364E25.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.07.15:530][ 66]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.07.15:533][ 66]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.14-21.07.15:568][ 66]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.07.15:637][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:638][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:658][ 66]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.14-21.07.15:663][ 66]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.07.15:721][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:722][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:763][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:764][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:784][ 66]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.07.15:832][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:832][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:905][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:905][ 66]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.15:953][ 66]LogPlayLevel: PIE:  Blueprint regeneration took 422 ms (4 blueprints)
+[2015.01.14-21.07.15:953][ 66]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:07:15 AM)
+[2015.01.14-21.07.15:974][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020946s)
+[2015.01.14-21.07.15:975][ 66]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2015.01.14-21.07.15:975][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022162s)
+[2015.01.14-21.07.16:011][ 66]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.07.16:013][ 66]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.07.16:014][ 66]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.07.16
+[2015.01.14-21.07.16:015][ 66]LogWorld: Bringing up level for play took: 0.001605
+[2015.01.14-21.07.16:017][ 66]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.84
+[2015.01.14-21.07.16:792][144]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.07.16:855][144]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve Example_Map.umap
+[2015.01.14-21.07.16:855][144]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.07.16:856][144]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.07.16:856][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.14-21.07.16:873][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719FFDDBC0
+[2015.01.14-21.07.16:873][144]Cmd: MEM
+[2015.01.14-21.07.16:888][144]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.07.16:889][144]LogMemory: Process Physical Memory: 509.84 MB used, 516.14 MB peak
+[2015.01.14-21.07.16:889][144]LogMemory: Process Virtual Memory: 407.08 MB used, 416.94 MB peak
+[2015.01.14-21.07.16:889][144]LogMemory: Physical Memory: 2556.98 MB used, 8153.19 MB total
+[2015.01.14-21.07.16:889][144]LogMemory: Virtual Memory: 947.27 MB used, 134217728.00 MB total
+[2015.01.14-21.07.16:889][144]LogMemory: 
+[2015.01.14-21.07.16:889][144]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.07.16:907][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018725s)
+[2015.01.14-21.07.16:908][144]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2015.01.14-21.07.16:908][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.019678s)
+[2015.01.14-21.07.16:909][144]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.07.16:911][144]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.07.16:912][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.07.16
+[2015.01.14-21.07.16:913][144]LogWorld: Bringing up level for play took: 0.001892
+[2015.01.14-21.07.17:704][226]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.07.17:765][226]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve Example_Map.umap
+[2015.01.14-21.07.17:765][226]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.07.17:765][226]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.07.17:780][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007189009800
+[2015.01.14-21.07.17:782][226]Cmd: MEM
+[2015.01.14-21.07.17:798][226]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.07.17:798][226]LogMemory: Process Physical Memory: 509.88 MB used, 531.38 MB peak
+[2015.01.14-21.07.17:798][226]LogMemory: Process Virtual Memory: 406.69 MB used, 428.74 MB peak
+[2015.01.14-21.07.17:798][226]LogMemory: Physical Memory: 2558.79 MB used, 8153.19 MB total
+[2015.01.14-21.07.17:798][226]LogMemory: Virtual Memory: 947.33 MB used, 134217728.00 MB total
+[2015.01.14-21.07.17:798][226]LogMemory: 
+[2015.01.14-21.07.17:798][226]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.07.17:818][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020076s)
+[2015.01.14-21.07.17:819][226]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2015.01.14-21.07.17:819][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020997s)
+[2015.01.14-21.07.17:820][226]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.07.17:821][226]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.07.17:823][226]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.07.17
+[2015.01.14-21.07.17:824][226]LogWorld: Bringing up level for play took: 0.001986
+[2015.01.14-21.07.20:001][462]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.07.20:063][462]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.07.20:064][462]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.07.20:064][462]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.07.20:078][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719D2CC860
+[2015.01.14-21.07.20:081][462]Cmd: MEM
+[2015.01.14-21.07.20:097][462]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.07.20:097][462]LogMemory: Process Physical Memory: 510.10 MB used, 539.55 MB peak
+[2015.01.14-21.07.20:097][462]LogMemory: Process Virtual Memory: 407.34 MB used, 436.55 MB peak
+[2015.01.14-21.07.20:097][462]LogMemory: Physical Memory: 2559.45 MB used, 8153.19 MB total
+[2015.01.14-21.07.20:097][462]LogMemory: Virtual Memory: 947.33 MB used, 134217728.00 MB total
+[2015.01.14-21.07.20:097][462]LogMemory: 
+[2015.01.14-21.07.20:097][462]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.07.20:117][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019964s)
+[2015.01.14-21.07.20:117][462]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2015.01.14-21.07.20:118][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020875s)
+[2015.01.14-21.07.20:118][462]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.07.20:120][462]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.07.20:122][462]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.07.20
+[2015.01.14-21.07.20:122][462]LogWorld: Bringing up level for play took: 0.001945
+[2015.01.14-21.07.21:661][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A007D300
+[2015.01.14-21.07.23:101][794]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.01.14-21.07.27:769][ 44]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.07.27:817][ 44]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.27:817][ 44]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.27:916][ 44]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.27:917][ 44]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.07.27:947][ 44]BlueprintEditorCompileResults: Info [0072.33] Compile of MyCharacter successful! [in 163 ms]
+[2015.01.14-21.07.28:476][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.07.28:781][ 63]LogSavePackage: Save=299.522583ms
+[2015.01.14-21.07.28:782][ 63]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacterA7DD67CE405CA55B6486CE85BB69434C.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.07.29:904][119]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.14-21.08.04:338][954]BlueprintLog: New page: Compile PauseMenu
+[2015.01.14-21.08.04:386][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.14-21.08.04:386][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.01.14-21.08.04:400][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719E0D2480
+[2015.01.14-21.08.04:455][954]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.04:456][954]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.04:476][954]BlueprintEditorCompileResults: Info [0108.86] Compile of PauseMenu successful! [in 135 ms]
+[2015.01.14-21.08.05:356][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.14-21.08.05:376][996]LogSavePackage: Save=9.656458ms
+[2015.01.14-21.08.05:376][996]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/PauseMenuA7F1AF5E4156FBBB22A3578D48DC5EC5.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.14-21.08.10:630][343]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.08.10:651][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:652][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:673][343]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.08.10:721][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:722][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:794][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:794][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:832][343]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.08.10:897][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:898][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:930][343]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.08.10:998][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.10:999][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.11:041][343]LogPlayLevel: PIE:  Blueprint regeneration took 410 ms (3 blueprints)
+[2015.01.14-21.08.11:042][343]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:08:11 AM)
+[2015.01.14-21.08.11:062][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020210s)
+[2015.01.14-21.08.11:063][343]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2015.01.14-21.08.11:063][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021576s)
+[2015.01.14-21.08.11:100][343]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.08.11:102][343]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.08.11:103][343]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.08.11
+[2015.01.14-21.08.11:103][343]LogWorld: Bringing up level for play took: 0.001549
+[2015.01.14-21.08.11:106][343]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.071
+[2015.01.14-21.08.12:950][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A3AE1580
+[2015.01.14-21.08.14:987][723]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.14-21.08.47:878][571]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.08.47:908][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.47:909][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.47:929][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.01.14-21.08.47:929][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.01.14-21.08.47:929][571]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.08.47:975][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.47:975][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.48:045][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.48:046][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.48:081][571]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.08.48:142][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.48:143][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.48:173][571]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.08.48:238][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.48:239][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.08.48:280][571]LogPlayLevel: PIE:  Blueprint regeneration took 402 ms (3 blueprints)
+[2015.01.14-21.08.48:280][571]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:08:48 AM)
+[2015.01.14-21.08.48:300][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020161s)
+[2015.01.14-21.08.48:302][571]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2015.01.14-21.08.48:302][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021418s)
+[2015.01.14-21.08.48:340][571]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.08.48:341][571]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.08.48:342][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.08.48
+[2015.01.14-21.08.48:343][571]LogWorld: Bringing up level for play took: 0.001561
+[2015.01.14-21.08.48:345][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.168
+[2015.01.14-21.08.52:349][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.01.14-21.08.52:396][  4]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719FFDE520
+[2015.01.14-21.09.06:719][771]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.09.06:766][771]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.09.06:767][771]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.09.06:870][771]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.09.06:870][771]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.09.06:904][771]BlueprintEditorCompileResults: Info [0171.29] Compile of MyCharacter successful! [in 171 ms]
+[2015.01.14-21.11.38:837][699]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.14-21.12.47:757][671]BlueprintLog: New page: Compile PauseMenu
+[2015.01.14-21.12.47:808][671]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.01.14-21.12.47:808][671]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.01.14-21.12.47:885][671]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.47:886][671]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.47:909][671]BlueprintEditorCompileResults: Info [0392.30] Compile of PauseMenu successful! [in 148 ms]
+[2015.01.14-21.12.48:675][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.14-21.12.48:701][715]LogSavePackage: Save=9.491876ms
+[2015.01.14-21.12.48:701][715]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/PauseMenu0D4B0DDC40CE978898D699B8BB6F6C2E.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.14-21.12.50:451][840]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.12.50:494][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:494][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:515][840]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.12.50:563][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:563][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:656][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:657][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:712][840]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.12.50:804][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:804][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:836][840]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.12.50:927][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:928][840]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.12.50:971][840]LogPlayLevel: PIE:  Blueprint regeneration took 519 ms (3 blueprints)
+[2015.01.14-21.12.50:971][840]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:12:50 AM)
+[2015.01.14-21.12.50:992][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020005s)
+[2015.01.14-21.12.50:993][840]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2015.01.14-21.12.50:993][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021081s)
+[2015.01.14-21.12.51:028][840]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.12.51:029][840]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.12.51:031][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.12.51
+[2015.01.14-21.12.51:031][840]LogWorld: Bringing up level for play took: 0.001590
+[2015.01.14-21.12.51:033][840]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.144
+[2015.01.14-21.12.53:727][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A70BA200
+[2015.01.14-21.13.35:880][442]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.13.35:928][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.13.35:929][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.13.36:027][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.13.36:027][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.13.36:064][442]BlueprintEditorCompileResults: Info [0440.45] Compile of MyCharacter successful! [in 169 ms]
+[2015.01.14-21.14.45:266][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.14.45:568][ 18]LogSavePackage: Save=291.293518ms
+[2015.01.14-21.14.45:568][ 18]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter1E0987234DC8CEEDC4EC60B6467D04B2.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.14.47:453][112]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.14.47:503][112]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.47:503][112]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.47:553][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.01.14-21.14.47:605][112]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.47:606][112]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.47:647][112]BlueprintEditorCompileResults: Info [0512.04] Compile of MyCharacter successful! [in 179 ms]
+[2015.01.14-21.14.48:250][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.14.48:559][134]LogSavePackage: Save=303.253815ms
+[2015.01.14-21.14.48:559][134]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter4DDC5F9C436884B960505D976DBFB8DD.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.14.49:902][221]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.14.49:911][221]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.14.49:997][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.49:997][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:019][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.01.14-21.14.50:032][221]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.14.50:110][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:111][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:159][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:160][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:182][221]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.14.50:236][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:237][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:314][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:315][221]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.14.50:383][221]LogPlayLevel: PIE:  Blueprint regeneration took 480 ms (3 blueprints)
+[2015.01.14-21.14.50:383][221]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:14:50 AM)
+[2015.01.14-21.14.50:405][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021503s)
+[2015.01.14-21.14.50:406][221]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2015.01.14-21.14.50:406][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022737s)
+[2015.01.14-21.14.50:444][221]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.14.50:445][221]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.14.50:447][221]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.14.50
+[2015.01.14-21.14.50:447][221]LogWorld: Bringing up level for play took: 0.001761
+[2015.01.14-21.14.50:450][221]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.272
+[2015.01.14-21.14.52:235][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A587AB60
+[2015.01.14-21.15.10:720][401]BlueprintLog: New page: Compile PauseMenu
+[2015.01.14-21.15.10:813][401]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.10:814][401]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.10:834][401]BlueprintEditorCompileResults: Info [0535.22] Compile of PauseMenu successful! [in 111 ms]
+[2015.01.14-21.15.11:478][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.14-21.15.11:499][439]LogSavePackage: Save=9.850826ms
+[2015.01.14-21.15.11:499][439]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/PauseMenuD965095D4D47FBC1F60AE5990585D528.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.14-21.15.13:219][564]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.15.13:239][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:240][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:260][564]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.15.13:308][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:309][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:377][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:378][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:434][564]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.15.13:506][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:507][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:538][564]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.15.13:605][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:606][564]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.15.13:647][564]LogPlayLevel: PIE:  Blueprint regeneration took 428 ms (3 blueprints)
+[2015.01.14-21.15.13:647][564]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:15:13 AM)
+[2015.01.14-21.15.13:667][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019473s)
+[2015.01.14-21.15.13:668][564]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2015.01.14-21.15.13:668][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020557s)
+[2015.01.14-21.15.13:708][564]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.15.13:709][564]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.15.13:711][564]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.15.13
+[2015.01.14-21.15.13:711][564]LogWorld: Bringing up level for play took: 0.001575
+[2015.01.14-21.15.13:714][564]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.536
+[2015.01.14-21.15.39:300][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071ADD10AE0
+[2015.01.14-21.16.09:532][252]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.09:533][252]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.28:169][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.28:169][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.43:847][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.16.44:150][891]LogSavePackage: Save=295.222107ms
+[2015.01.14-21.16.44:150][891]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter24BF3A8B481822155E6534AA82362394.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.16.44:786][921]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.16.44:835][921]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.44:836][921]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.44:887][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.01.14-21.16.44:959][921]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.44:960][921]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.16.45:002][921]BlueprintEditorCompileResults: Info [0629.39] Compile of MyCharacter successful! [in 201 ms]
+[2015.01.14-21.17.13:830][266]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.017
+[2015.01.14-21.17.13:868][266]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2015.01.14-21.17.13:897][266]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2015.01.14-21.17.13:897][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2015.01.14-21.17.13:898][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.01.14-21.17.14:238][266]LogSavePackage: Save=333.294922ms
+[2015.01.14-21.17.14:238][266]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter_Auto17F9B51274969AE711EF6ABBEAF84D4D5.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2015.01.14-21.17.14:242][266]LogFileHelpers: Auto-saving content packages took 0.411
+[2015.01.14-21.17.30:890][111]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.17.30:939][111]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.30:940][111]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.30:991][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.01.14-21.17.31:040][111]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.31:041][111]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.31:081][111]BlueprintEditorCompileResults: Info [0675.47] Compile of MyCharacter successful! [in 175 ms]
+[2015.01.14-21.17.31:830][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.17.32:139][141]LogSavePackage: Save=302.289795ms
+[2015.01.14-21.17.32:139][141]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter4A1113794DA41383D7FA848F935E000D.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.17.41:046][584]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.17.41:097][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.41:098][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.41:149][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.01.14-21.17.41:199][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.41:199][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.41:239][584]BlueprintEditorCompileResults: Info [0685.63] Compile of MyCharacter successful! [in 176 ms]
+[2015.01.14-21.17.41:796][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.17.42:103][603]LogSavePackage: Save=300.759521ms
+[2015.01.14-21.17.42:103][603]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter72E9BD0C42A9490E4D40C9A4977A2A5D.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.17.43:767][724]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.17.43:779][724]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.17.43:863][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.43:864][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.43:883][724]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.01.14-21.17.43:894][724]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.17.43:961][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.43:962][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.44:005][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.44:006][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.44:027][724]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.17.44:078][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.44:079][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.44:154][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.44:155][724]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.17.44:217][724]LogPlayLevel: PIE:  Blueprint regeneration took 449 ms (3 blueprints)
+[2015.01.14-21.17.44:218][724]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:17:44 AM)
+[2015.01.14-21.17.44:238][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019793s)
+[2015.01.14-21.17.44:239][724]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2015.01.14-21.17.44:239][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020881s)
+[2015.01.14-21.17.44:276][724]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.17.44:277][724]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.17.44:278][724]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.17.44
+[2015.01.14-21.17.44:279][724]LogWorld: Bringing up level for play took: 0.001568
+[2015.01.14-21.17.44:281][724]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.104
+[2015.01.14-21.17.54:603][711]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.14-21.18.07:576][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719CD768E0
+[2015.01.14-21.18.07:576][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A6294720
+[2015.01.14-21.18.07:606][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071AB855940
+[2015.01.14-21.18.23:045][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.14-21.18.23:171][384]LogSavePackage: Save=96.459267ms
+[2015.01.14-21.18.23:171][384]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/Example_Map47E4AEAB48C03217B0B0C8AA68DEE126.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap'
+[2015.01.14-21.18.24:650][519]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.14-21.18.25:846][620]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.14-21.18.26:656][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.18.26:659][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.18.26:708][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.18.26:709][668]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.18.34:825][ 99]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.14-21.18.55:585][407]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.18.55:641][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2015.01.14-21.18.55:641][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.01.14-21.18.55:658][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071897D7560
+[2015.01.14-21.18.55:690][407]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.18.55:691][407]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.18.55:721][407]BlueprintEditorCompileResults: Info [0760.11] Compile of MainMenu successful! [in 131 ms]
+[2015.01.14-21.20.19:501][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.20.19:526][368]LogSavePackage: Save=12.041838ms
+[2015.01.14-21.20.19:526][368]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuA784F9FC41BD968036CD09AEE2EF8D72.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.20.20:219][412]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.20.20:303][412]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.20:303][412]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.20:329][412]BlueprintEditorCompileResults: Info [0844.72] Compile of MainMenu successful! [in 106 ms]
+[2015.01.14-21.20.20:939][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.20.20:959][447]LogSavePackage: Save=11.186134ms
+[2015.01.14-21.20.20:959][447]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuF03C00084AC28DF18558C5AF55F65085.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.20.22:844][592]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.20.22:861][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.22:862][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.22:886][592]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.20.22:935][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.22:936][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.23:005][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.23:006][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.23:046][592]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.20.23:103][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.23:104][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.23:138][592]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.20.23:203][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.23:203][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.20.23:248][592]LogPlayLevel: PIE:  Blueprint regeneration took 404 ms (3 blueprints)
+[2015.01.14-21.20.23:248][592]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:20:23 AM)
+[2015.01.14-21.20.23:269][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021167s)
+[2015.01.14-21.20.23:270][592]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2015.01.14-21.20.23:270][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022159s)
+[2015.01.14-21.20.23:305][592]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.20.23:306][592]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.20.23:308][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.20.23
+[2015.01.14-21.20.23:308][592]LogWorld: Bringing up level for play took: 0.001679
+[2015.01.14-21.20.23:311][592]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.134
+[2015.01.14-21.20.24:026][662]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.20.24:088][662]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.20.24:088][662]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.20.24:088][662]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.20.24:106][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B358DDA0
+[2015.01.14-21.20.24:106][662]Cmd: MEM
+[2015.01.14-21.20.24:122][662]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.20.24:122][662]LogMemory: Process Physical Memory: 810.21 MB used, 832.92 MB peak
+[2015.01.14-21.20.24:122][662]LogMemory: Process Virtual Memory: 713.72 MB used, 736.71 MB peak
+[2015.01.14-21.20.24:122][662]LogMemory: Physical Memory: 2861.58 MB used, 8153.19 MB total
+[2015.01.14-21.20.24:122][662]LogMemory: Virtual Memory: 1232.27 MB used, 134217728.00 MB total
+[2015.01.14-21.20.24:122][662]LogMemory: 
+[2015.01.14-21.20.24:122][662]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.20.24:142][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019946s)
+[2015.01.14-21.20.24:143][662]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2015.01.14-21.20.24:143][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020898s)
+[2015.01.14-21.20.24:144][662]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.20.24:145][662]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.20.24:147][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.20.24
+[2015.01.14-21.20.24:148][662]LogWorld: Bringing up level for play took: 0.002159
+[2015.01.14-21.20.27:697][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B358EA20
+[2015.01.14-21.20.31:229][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.14-21.21.07:145][414]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.21.07:154][414]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection
+[2015.01.14-21.21.07:263][414]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.21.07:264][414]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.21.07:290][414]LogBlueprint:Warning: [compiler] Warning [0891.68] Compile of MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 141 ms]
+[2015.01.14-21.21.07:290][414]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection
+[2015.01.14-21.21.07:290][414]BlueprintEditorCompileResults:Warning: Warning [0891.68] Compile of MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 141 ms]
+[2015.01.14-21.22.10:244][132]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.22.10:329][132]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.10:330][132]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.10:355][132]BlueprintEditorCompileResults: Info [0954.74] Compile of MainMenu successful! [in 106 ms]
+[2015.01.14-21.22.10:904][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.22.10:940][162]LogSavePackage: Save=11.746073ms
+[2015.01.14-21.22.10:940][162]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenu94B5571841A27041E00817BBD810A766.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.22.13:180][317]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.22.13:197][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:198][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:222][317]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.22.13:270][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:271][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:339][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:340][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:384][317]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.22.13:449][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:449][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:478][317]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.22.13:535][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:536][317]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.13:581][317]LogPlayLevel: PIE:  Blueprint regeneration took 400 ms (3 blueprints)
+[2015.01.14-21.22.13:581][317]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:22:13 AM)
+[2015.01.14-21.22.13:602][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020559s)
+[2015.01.14-21.22.13:602][317]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2015.01.14-21.22.13:603][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021517s)
+[2015.01.14-21.22.13:639][317]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.22.13:641][317]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.22.13:642][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.22.13
+[2015.01.14-21.22.13:642][317]LogWorld: Bringing up level for play took: 0.001571
+[2015.01.14-21.22.13:645][317]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.468
+[2015.01.14-21.22.14:333][382]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.22.14:394][382]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve Example_Map.umap
+[2015.01.14-21.22.14:394][382]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.22.14:394][382]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.22.14:413][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071ACF05DA0
+[2015.01.14-21.22.14:413][382]Cmd: MEM
+[2015.01.14-21.22.14:429][382]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.22.14:429][382]LogMemory: Process Physical Memory: 807.94 MB used, 839.91 MB peak
+[2015.01.14-21.22.14:429][382]LogMemory: Process Virtual Memory: 711.55 MB used, 743.71 MB peak
+[2015.01.14-21.22.14:429][382]LogMemory: Physical Memory: 2860.14 MB used, 8153.19 MB total
+[2015.01.14-21.22.14:429][382]LogMemory: Virtual Memory: 1222.72 MB used, 134217728.00 MB total
+[2015.01.14-21.22.14:429][382]LogMemory: 
+[2015.01.14-21.22.14:429][382]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.22.14:450][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020197s)
+[2015.01.14-21.22.14:451][382]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2015.01.14-21.22.14:451][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021642s)
+[2015.01.14-21.22.14:452][382]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.22.14:453][382]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.22.14:455][382]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.22.14
+[2015.01.14-21.22.14:455][382]LogWorld: Bringing up level for play took: 0.001848
+[2015.01.14-21.22.18:036][771]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve Example_Map.umap
+[2015.01.14-21.22.18:097][771]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve Example_Map.umap
+[2015.01.14-21.22.18:097][771]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.22.18:097][771]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.22.18:113][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071ACF06A20
+[2015.01.14-21.22.18:116][771]Cmd: MEM
+[2015.01.14-21.22.18:132][771]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.22.18:132][771]LogMemory: Process Physical Memory: 807.96 MB used, 839.91 MB peak
+[2015.01.14-21.22.18:132][771]LogMemory: Process Virtual Memory: 711.57 MB used, 743.71 MB peak
+[2015.01.14-21.22.18:132][771]LogMemory: Physical Memory: 2860.38 MB used, 8153.19 MB total
+[2015.01.14-21.22.18:132][771]LogMemory: Virtual Memory: 1222.72 MB used, 134217728.00 MB total
+[2015.01.14-21.22.18:132][771]LogMemory: 
+[2015.01.14-21.22.18:132][771]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.22.18:153][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020225s)
+[2015.01.14-21.22.18:153][771]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2015.01.14-21.22.18:154][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021259s)
+[2015.01.14-21.22.18:154][771]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.22.18:156][771]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.22.18:158][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.22.18
+[2015.01.14-21.22.18:158][771]LogWorld: Bringing up level for play took: 0.001930
+[2015.01.14-21.22.20:503][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A323F1A0
+[2015.01.14-21.22.23:898][304]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.22.23:916][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.23:916][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.23:940][304]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.22.23:989][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.23:989][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.24:057][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.24:058][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.24:105][304]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.22.24:173][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.24:174][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.24:206][304]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.22.24:264][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.24:265][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.22.24:311][304]LogPlayLevel: PIE:  Blueprint regeneration took 412 ms (3 blueprints)
+[2015.01.14-21.22.24:311][304]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:22:24 AM)
+[2015.01.14-21.22.24:331][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019949s)
+[2015.01.14-21.22.24:332][304]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2015.01.14-21.22.24:332][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020897s)
+[2015.01.14-21.22.24:369][304]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.22.24:370][304]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.22.24:372][304]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.22.24
+[2015.01.14-21.22.24:372][304]LogWorld: Bringing up level for play took: 0.001570
+[2015.01.14-21.22.24:375][304]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.197
+[2015.01.14-21.22.27:258][615]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719FD120C0
+[2015.01.14-21.22.28:465][714]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.14-21.23.33:526][476]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.23.33:633][476]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.33:634][476]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.33:658][476]BlueprintEditorCompileResults: Info [1038.05] Compile of MainMenu successful! [in 128 ms]
+[2015.01.14-21.23.34:259][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.23.34:289][507]LogSavePackage: Save=11.743966ms
+[2015.01.14-21.23.34:289][507]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuDE70A7F04A413E8D31F6A5AF15BD507B.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.23.37:927][777]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.23.37:945][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.37:946][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.37:970][777]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.23.38:019][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:019][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:090][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:091][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:181][777]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.23.38:270][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:271][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:302][777]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.23.38:360][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:361][777]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.38:408][777]LogPlayLevel: PIE:  Blueprint regeneration took 480 ms (3 blueprints)
+[2015.01.14-21.23.38:408][777]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:23:38 AM)
+[2015.01.14-21.23.38:429][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020943s)
+[2015.01.14-21.23.38:430][777]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2015.01.14-21.23.38:430][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022015s)
+[2015.01.14-21.23.38:468][777]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.23.38:470][777]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.23.38:471][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.23.38
+[2015.01.14-21.23.38:472][777]LogWorld: Bringing up level for play took: 0.001559
+[2015.01.14-21.23.38:474][777]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.296
+[2015.01.14-21.23.39:073][834]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.23.39:135][834]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.23.39:135][834]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.23.39:135][834]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.23.39:154][834]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A808E660
+[2015.01.14-21.23.39:155][834]Cmd: MEM
+[2015.01.14-21.23.39:171][834]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.23.39:171][834]LogMemory: Process Physical Memory: 810.59 MB used, 839.91 MB peak
+[2015.01.14-21.23.39:171][834]LogMemory: Process Virtual Memory: 713.65 MB used, 743.71 MB peak
+[2015.01.14-21.23.39:171][834]LogMemory: Physical Memory: 2882.36 MB used, 8153.19 MB total
+[2015.01.14-21.23.39:171][834]LogMemory: Virtual Memory: 1231.27 MB used, 134217728.00 MB total
+[2015.01.14-21.23.39:171][834]LogMemory: 
+[2015.01.14-21.23.39:171][834]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.23.39:191][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020593s)
+[2015.01.14-21.23.39:192][834]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2015.01.14-21.23.39:192][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021484s)
+[2015.01.14-21.23.39:193][834]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.23.39:194][834]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.23.39:196][834]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.23.39
+[2015.01.14-21.23.39:197][834]LogWorld: Bringing up level for play took: 0.001960
+[2015.01.14-21.23.41:615][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A8BA4FE0
+[2015.01.14-21.23.42:856][200]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.23.42:873][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.42:874][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.42:897][200]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.23.42:946][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.42:947][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.43:013][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.43:014][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.43:101][200]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.23.43:190][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.43:191][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.43:221][200]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.23.43:279][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.43:280][200]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.23.43:327][200]LogPlayLevel: PIE:  Blueprint regeneration took 470 ms (3 blueprints)
+[2015.01.14-21.23.43:327][200]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:23:43 AM)
+[2015.01.14-21.23.43:347][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019923s)
+[2015.01.14-21.23.43:348][200]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2015.01.14-21.23.43:348][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020919s)
+[2015.01.14-21.23.43:386][200]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.23.43:387][200]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.23.43:389][200]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.23.43
+[2015.01.14-21.23.43:389][200]LogWorld: Bringing up level for play took: 0.001584
+[2015.01.14-21.23.43:391][200]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.214
+[2015.01.14-21.23.44:902][359]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.23.44:963][359]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve Example_Map.umap
+[2015.01.14-21.23.44:963][359]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.23.44:963][359]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.23.44:982][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719CC55E40
+[2015.01.14-21.23.44:982][359]Cmd: MEM
+[2015.01.14-21.23.44:997][359]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.23.44:998][359]LogMemory: Process Physical Memory: 812.21 MB used, 839.91 MB peak
+[2015.01.14-21.23.44:998][359]LogMemory: Process Virtual Memory: 714.90 MB used, 743.71 MB peak
+[2015.01.14-21.23.44:998][359]LogMemory: Physical Memory: 2885.06 MB used, 8153.19 MB total
+[2015.01.14-21.23.44:998][359]LogMemory: Virtual Memory: 1232.33 MB used, 134217728.00 MB total
+[2015.01.14-21.23.44:998][359]LogMemory: 
+[2015.01.14-21.23.44:998][359]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.23.45:018][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020502s)
+[2015.01.14-21.23.45:019][359]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2015.01.14-21.23.45:020][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021948s)
+[2015.01.14-21.23.45:020][359]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.23.45:022][359]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.23.45:024][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.23.45
+[2015.01.14-21.23.45:024][359]LogWorld: Bringing up level for play took: 0.001861
+[2015.01.14-21.24.09:616][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A07113A0
+[2015.01.14-21.24.54:649][637]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.24.54:748][637]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.24.54:749][637]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.24.54:774][637]BlueprintEditorCompileResults: Info [1119.16] Compile of MainMenu successful! [in 120 ms]
+[2015.01.14-21.24.58:203][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.24.58:229][844]LogSavePackage: Save=11.446696ms
+[2015.01.14-21.24.58:229][844]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuE32A3332409125EC1117C79D5457A484.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.25.00:568][ 17]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.25.00:585][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:586][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:610][ 17]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.25.00:659][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:660][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:730][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:731][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:779][ 17]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.25.00:847][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:848][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:879][ 17]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.25.00:939][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:940][ 17]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.00:987][ 17]LogPlayLevel: PIE:  Blueprint regeneration took 419 ms (3 blueprints)
+[2015.01.14-21.25.00:988][ 17]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:25:00 AM)
+[2015.01.14-21.25.01:009][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021283s)
+[2015.01.14-21.25.01:010][ 17]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2015.01.14-21.25.01:010][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022223s)
+[2015.01.14-21.25.01:045][ 17]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.25.01:047][ 17]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.25.01:049][ 17]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.25.01
+[2015.01.14-21.25.01:049][ 17]LogWorld: Bringing up level for play took: 0.001614
+[2015.01.14-21.25.01:051][ 17]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.126
+[2015.01.14-21.25.01:647][ 73]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.25.01:709][ 73]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.25.01:709][ 73]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.25.01:709][ 73]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.25.01:727][ 73]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B44123E0
+[2015.01.14-21.25.01:728][ 73]Cmd: MEM
+[2015.01.14-21.25.01:744][ 73]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.25.01:744][ 73]LogMemory: Process Physical Memory: 840.14 MB used, 852.36 MB peak
+[2015.01.14-21.25.01:744][ 73]LogMemory: Process Virtual Memory: 746.26 MB used, 760.26 MB peak
+[2015.01.14-21.25.01:744][ 73]LogMemory: Physical Memory: 2892.25 MB used, 8153.19 MB total
+[2015.01.14-21.25.01:744][ 73]LogMemory: Virtual Memory: 1255.03 MB used, 134217728.00 MB total
+[2015.01.14-21.25.01:744][ 73]LogMemory: 
+[2015.01.14-21.25.01:744][ 73]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.25.01:763][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019156s)
+[2015.01.14-21.25.01:764][ 73]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2015.01.14-21.25.01:764][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020038s)
+[2015.01.14-21.25.01:765][ 73]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.25.01:767][ 73]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.25.01:768][ 73]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.25.01
+[2015.01.14-21.25.01:769][ 73]LogWorld: Bringing up level for play took: 0.001955
+[2015.01.14-21.25.03:698][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B4413E20
+[2015.01.14-21.25.20:829][660]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.25.20:914][660]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.20:915][660]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.25.20:941][660]BlueprintEditorCompileResults: Info [1145.33] Compile of MainMenu successful! [in 107 ms]
+[2015.01.14-21.26.05:322][642]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.26.05:408][642]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.05:408][642]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.05:435][642]BlueprintEditorCompileResults: Info [1189.82] Compile of MainMenu successful! [in 108 ms]
+[2015.01.14-21.26.05:953][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.26.05:985][671]LogSavePackage: Save=11.730125ms
+[2015.01.14-21.26.05:985][671]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenu02AB13E24F0C66FE469C2AA25E33590F.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.26.07:396][774]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.26.07:414][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:415][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:443][774]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.26.07:498][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:499][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:574][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:575][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:633][774]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.26.07:704][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:705][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:738][774]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.26.07:800][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:801][774]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.26.07:850][774]LogPlayLevel: PIE:  Blueprint regeneration took 452 ms (3 blueprints)
+[2015.01.14-21.26.07:850][774]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:26:07 AM)
+[2015.01.14-21.26.07:871][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021312s)
+[2015.01.14-21.26.07:872][774]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2015.01.14-21.26.07:873][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022545s)
+[2015.01.14-21.26.07:908][774]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.26.07:909][774]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.26.07:911][774]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.26.07
+[2015.01.14-21.26.07:911][774]LogWorld: Bringing up level for play took: 0.001774
+[2015.01.14-21.26.07:914][774]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.736
+[2015.01.14-21.26.08:664][830]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve Example_Map.umap
+[2015.01.14-21.26.08:728][830]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.26.08:728][830]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.26.08:728][830]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.26.08:749][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B748E700
+[2015.01.14-21.26.08:749][830]Cmd: MEM
+[2015.01.14-21.26.08:767][830]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.26.08:767][830]LogMemory: Process Physical Memory: 859.63 MB used, 879.91 MB peak
+[2015.01.14-21.26.08:767][830]LogMemory: Process Virtual Memory: 766.48 MB used, 786.38 MB peak
+[2015.01.14-21.26.08:767][830]LogMemory: Physical Memory: 2914.24 MB used, 8153.19 MB total
+[2015.01.14-21.26.08:767][830]LogMemory: Virtual Memory: 1279.99 MB used, 134217728.00 MB total
+[2015.01.14-21.26.08:767][830]LogMemory: 
+[2015.01.14-21.26.08:767][830]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.26.08:788][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021642s)
+[2015.01.14-21.26.08:789][830]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2015.01.14-21.26.08:789][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022675s)
+[2015.01.14-21.26.08:790][830]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.26.08:792][830]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.26.08:794][830]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.26.08
+[2015.01.14-21.26.08:794][830]LogWorld: Bringing up level for play took: 0.002125
+[2015.01.14-21.26.10:989][ 40]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.26.11:049][ 40]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve Example_Map.umap
+[2015.01.14-21.26.11:049][ 40]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.26.11:049][ 40]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.26.11:065][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B75758A0
+[2015.01.14-21.26.11:068][ 40]Cmd: MEM
+[2015.01.14-21.26.11:084][ 40]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.26.11:084][ 40]LogMemory: Process Physical Memory: 859.71 MB used, 890.51 MB peak
+[2015.01.14-21.26.11:084][ 40]LogMemory: Process Virtual Memory: 765.48 MB used, 796.73 MB peak
+[2015.01.14-21.26.11:085][ 40]LogMemory: Physical Memory: 2917.41 MB used, 8153.19 MB total
+[2015.01.14-21.26.11:085][ 40]LogMemory: Virtual Memory: 1278.99 MB used, 134217728.00 MB total
+[2015.01.14-21.26.11:085][ 40]LogMemory: 
+[2015.01.14-21.26.11:085][ 40]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.26.11:105][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020181s)
+[2015.01.14-21.26.11:105][ 40]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2015.01.14-21.26.11:106][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021043s)
+[2015.01.14-21.26.11:106][ 40]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.26.11:108][ 40]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.26.11:110][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.26.11
+[2015.01.14-21.26.11:110][ 40]LogWorld: Bringing up level for play took: 0.002059
+[2015.01.14-21.26.12:012][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B7648A40
+[2015.01.14-21.26.14:768][386]Cmd: SELECT NONE
+[2015.01.14-21.26.18:384][799]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.14-21.27.53:763][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.27.53:784][439]LogSavePackage: Save=11.781276ms
+[2015.01.14-21.27.53:784][439]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuCF92730A408A668F698B899931E1999E.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.27.54:428][486]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.27.54:524][486]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.54:525][486]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.54:552][486]BlueprintEditorCompileResults: Info [1298.94] Compile of MainMenu successful! [in 119 ms]
+[2015.01.14-21.27.55:048][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.27.55:075][518]LogSavePackage: Save=11.604959ms
+[2015.01.14-21.27.55:075][518]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuC862166C4CD41E8B034A5CB15E948DD9.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.27.56:802][665]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.27.56:820][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.56:821][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.56:844][665]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.27.56:893][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.56:894][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.56:964][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.56:964][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.57:010][665]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.27.57:074][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.57:075][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.57:103][665]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.27.57:160][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.57:161][665]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.27.57:208][665]LogPlayLevel: PIE:  Blueprint regeneration took 405 ms (3 blueprints)
+[2015.01.14-21.27.57:209][665]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:27:57 AM)
+[2015.01.14-21.27.57:230][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021017s)
+[2015.01.14-21.27.57:231][665]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2015.01.14-21.27.57:231][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022421s)
+[2015.01.14-21.27.57:269][665]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.27.57:270][665]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.27.57:272][665]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.27.57
+[2015.01.14-21.27.57:272][665]LogWorld: Bringing up level for play took: 0.001555
+[2015.01.14-21.27.57:274][665]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.097
+[2015.01.14-21.27.57:873][722]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.27.57:935][722]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.27.57:935][722]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.27.57:936][722]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.27.57:954][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B9A21C60
+[2015.01.14-21.27.57:954][722]Cmd: MEM
+[2015.01.14-21.27.57:970][722]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.27.57:970][722]LogMemory: Process Physical Memory: 904.90 MB used, 918.36 MB peak
+[2015.01.14-21.27.57:970][722]LogMemory: Process Virtual Memory: 810.61 MB used, 824.84 MB peak
+[2015.01.14-21.27.57:970][722]LogMemory: Physical Memory: 2958.13 MB used, 8153.19 MB total
+[2015.01.14-21.27.57:971][722]LogMemory: Virtual Memory: 1309.67 MB used, 134217728.00 MB total
+[2015.01.14-21.27.57:971][722]LogMemory: 
+[2015.01.14-21.27.57:971][722]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.27.57:990][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019091s)
+[2015.01.14-21.27.57:990][722]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2015.01.14-21.27.57:991][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020102s)
+[2015.01.14-21.27.57:991][722]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.27.57:993][722]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.27.57:995][722]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.27.57
+[2015.01.14-21.27.57:995][722]LogWorld: Bringing up level for play took: 0.001955
+[2015.01.14-21.27.59:924][915]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.27.59:987][915]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.27.59:987][915]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.27.59:987][915]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.28.00:002][915]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000719D519120
+[2015.01.14-21.28.00:005][915]Cmd: MEM
+[2015.01.14-21.28.00:021][915]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.28.00:021][915]LogMemory: Process Physical Memory: 905.02 MB used, 926.29 MB peak
+[2015.01.14-21.28.00:021][915]LogMemory: Process Virtual Memory: 809.92 MB used, 831.39 MB peak
+[2015.01.14-21.28.00:021][915]LogMemory: Physical Memory: 2980.30 MB used, 8153.19 MB total
+[2015.01.14-21.28.00:021][915]LogMemory: Virtual Memory: 1319.31 MB used, 134217728.00 MB total
+[2015.01.14-21.28.00:021][915]LogMemory: 
+[2015.01.14-21.28.00:021][915]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.28.00:039][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018139s)
+[2015.01.14-21.28.00:040][915]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2015.01.14-21.28.00:040][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.019152s)
+[2015.01.14-21.28.00:041][915]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.28.00:042][915]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.28.00:044][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.28.00
+[2015.01.14-21.28.00:044][915]LogWorld: Bringing up level for play took: 0.001991
+[2015.01.14-21.28.01:130][ 29]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071ABB25760
+[2015.01.14-21.28.10:058][718]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.28.10:143][718]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.10:144][718]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.10:172][718]BlueprintEditorCompileResults: Info [1314.56] Compile of MainMenu successful! [in 109 ms]
+[2015.01.14-21.28.10:695][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.28.10:715][748]LogSavePackage: Save=12.551229ms
+[2015.01.14-21.28.10:715][748]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuD5C59C5548874A4E4FBAA9A4A85CDA48.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.28.12:321][876]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.28.12:339][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:340][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:367][876]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.28.12:420][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:421][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:497][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:498][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:550][876]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.28.12:616][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:617][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:648][876]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.28.12:705][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:706][876]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.12:752][876]LogPlayLevel: PIE:  Blueprint regeneration took 430 ms (3 blueprints)
+[2015.01.14-21.28.12:752][876]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:28:12 AM)
+[2015.01.14-21.28.12:773][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020857s)
+[2015.01.14-21.28.12:774][876]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2015.01.14-21.28.12:775][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021923s)
+[2015.01.14-21.28.12:812][876]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.28.12:814][876]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.28.12:815][876]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.28.12
+[2015.01.14-21.28.12:816][876]LogWorld: Bringing up level for play took: 0.001544
+[2015.01.14-21.28.12:818][876]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.36
+[2015.01.14-21.28.39:034][811]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071BC33E700
+[2015.01.14-21.28.46:849][333]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.28.46:899][333]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.46:900][333]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.47:001][333]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.47:002][333]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.28.47:037][333]BlueprintEditorCompileResults: Info [1351.43] Compile of MyCharacter successful! [in 172 ms]
+[2015.01.14-21.29.08:908][882]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.14-21.29.50:708][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.018
+[2015.01.14-21.30.27:539][462]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.30.27:640][462]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.27:641][462]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.27:666][462]BlueprintEditorCompileResults: Info [1452.05] Compile of MainMenu successful! [in 122 ms]
+[2015.01.14-21.30.29:074][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.30.29:096][562]LogSavePackage: Save=11.492731ms
+[2015.01.14-21.30.29:096][562]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenuDD85DC594191DA0ABC2A879662D697B1.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.30.32:298][827]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.30.32:315][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:316][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:341][827]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.30.32:390][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:391][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:464][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:465][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:517][827]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.30.32:580][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:581][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:619][827]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.30.32:686][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:686][827]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.32:735][827]LogPlayLevel: PIE:  Blueprint regeneration took 436 ms (3 blueprints)
+[2015.01.14-21.30.32:735][827]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:30:32 AM)
+[2015.01.14-21.30.32:756][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020475s)
+[2015.01.14-21.30.32:757][827]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2015.01.14-21.30.32:757][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021565s)
+[2015.01.14-21.30.32:793][827]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.30.32:794][827]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.30.32:796][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.30.32
+[2015.01.14-21.30.32:796][827]LogWorld: Bringing up level for play took: 0.001547
+[2015.01.14-21.30.32:798][827]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.379
+[2015.01.14-21.30.33:477][893]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.30.33:540][893]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.30.33:540][893]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.30.33:540][893]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.30.33:559][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071BD2D2AC0
+[2015.01.14-21.30.33:559][893]Cmd: MEM
+[2015.01.14-21.30.33:576][893]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.30.33:576][893]LogMemory: Process Physical Memory: 963.30 MB used, 982.72 MB peak
+[2015.01.14-21.30.33:576][893]LogMemory: Process Virtual Memory: 873.39 MB used, 891.88 MB peak
+[2015.01.14-21.30.33:576][893]LogMemory: Physical Memory: 3029.69 MB used, 8153.19 MB total
+[2015.01.14-21.30.33:576][893]LogMemory: Virtual Memory: 1393.04 MB used, 134217728.00 MB total
+[2015.01.14-21.30.33:576][893]LogMemory: 
+[2015.01.14-21.30.33:576][893]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.30.33:596][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020160s)
+[2015.01.14-21.30.33:597][893]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2015.01.14-21.30.33:597][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021397s)
+[2015.01.14-21.30.33:598][893]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.30.33:600][893]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.30.33:601][893]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.30.33
+[2015.01.14-21.30.33:602][893]LogWorld: Bringing up level for play took: 0.001800
+[2015.01.14-21.30.40:792][691]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.14-21.30.45:102][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071BD3A6840
+[2015.01.14-21.30.45:109][848]Cmd: MAP LOAD FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.14-21.30.45:111][848]LightingResults: New page: Lighting Build
+[2015.01.14-21.30.45:130][848]LoadErrors: New page: Loading map: Main_Menu.umap
+[2015.01.14-21.30.45:388][848]MapCheck: New page: Map Check
+[2015.01.14-21.30.45:388][848]LightingResults: New page: Lighting Build
+[2015.01.14-21.30.45:404][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007187657BA0
+[2015.01.14-21.30.45:411][848]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.14-21.30.45:411][848]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.30.45:423][848]Cmd: MAP CHECKDEP
+[2015.01.14-21.30.45:423][848]MapCheck: New page: Main_Menu - Jan 14, 2015, 5:30:45 AM
+[2015.01.14-21.30.45:506][848]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.435ms to complete.
+[2015.01.14-21.30.45:506][848]LogFileHelpers: Loading map 'Main_Menu' took 3.074
+[2015.01.14-21.30.47:590][ 92]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.30.47:607][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:608][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:631][ 92]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.30.47:680][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:681][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:748][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:749][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:801][ 92]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.30.47:865][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:866][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:901][ 92]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.30.47:964][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.47:964][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.30.48:011][ 92]LogPlayLevel: PIE:  Blueprint regeneration took 419 ms (3 blueprints)
+[2015.01.14-21.30.48:011][ 92]PIE: New page: PIE session: Main_Menu (Jan 14, 2015, 5:30:48 AM)
+[2015.01.14-21.30.48:012][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000407s)
+[2015.01.14-21.30.48:012][ 92]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2015.01.14-21.30.48:012][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001112s)
+[2015.01.14-21.30.48:046][ 92]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.30.48:048][ 92]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.30.48:049][ 92]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.14-13.30.48
+[2015.01.14-21.30.48:049][ 92]LogWorld: Bringing up level for play took: 0.000473
+[2015.01.14-21.30.48:051][ 92]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.874
+[2015.01.14-21.30.48:756][166]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.30.48:818][166]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve Example_Map.umap
+[2015.01.14-21.30.48:818][166]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.30.48:818][166]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.30.48:835][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A72B4EA0
+[2015.01.14-21.30.48:835][166]Cmd: MEM
+[2015.01.14-21.30.48:852][166]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.30.48:852][166]LogMemory: Process Physical Memory: 956.38 MB used, 993.73 MB peak
+[2015.01.14-21.30.48:852][166]LogMemory: Process Virtual Memory: 863.67 MB used, 903.25 MB peak
+[2015.01.14-21.30.48:852][166]LogMemory: Physical Memory: 3018.09 MB used, 8153.19 MB total
+[2015.01.14-21.30.48:852][166]LogMemory: Virtual Memory: 1378.86 MB used, 134217728.00 MB total
+[2015.01.14-21.30.48:852][166]LogMemory: 
+[2015.01.14-21.30.48:852][166]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.30.49:002][166]LogLinker:Warning: Asset '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.14-21.30.49:039][166]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.30.49:040][166]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.30.49:042][166]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.30.49
+[2015.01.14-21.30.49:042][166]LogWorld: Bringing up level for play took: 0.001955
+[2015.01.14-21.30.54:168][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B51A3240
+[2015.01.14-21.31.48:048][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.14-21.32.27:296][514]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.32.27:347][514]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.27:348][514]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.27:450][514]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.27:450][514]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.27:493][514]BlueprintEditorCompileResults: Info [1571.88] Compile of MyCharacter successful! [in 181 ms]
+[2015.01.14-21.32.28:042][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.32.28:351][538]LogSavePackage: Save=299.920044ms
+[2015.01.14-21.32.28:352][538]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter1123E012468CB6968E42A0A40F575ED1.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.32.30:069][685]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.32.30:078][685]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.32.30:153][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:154][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:174][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.01.14-21.32.30:186][685]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.32.30:249][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:249][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:294][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:295][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:321][685]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.32.30:372][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:373][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:441][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:442][685]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.30:507][685]LogPlayLevel: PIE:  Blueprint regeneration took 439 ms (3 blueprints)
+[2015.01.14-21.32.30:507][685]PIE: New page: PIE session: Main_Menu (Jan 14, 2015, 5:32:30 AM)
+[2015.01.14-21.32.30:508][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000393s)
+[2015.01.14-21.32.30:509][685]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2015.01.14-21.32.30:509][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001037s)
+[2015.01.14-21.32.30:543][685]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.32.30:545][685]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.32.30:545][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.14-13.32.30
+[2015.01.14-21.32.30:545][685]LogWorld: Bringing up level for play took: 0.000501
+[2015.01.14-21.32.30:547][685]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.37
+[2015.01.14-21.32.31:215][752]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.32.31:278][752]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.32.31:278][752]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.32.31:278][752]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.32.31:295][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C27A0900
+[2015.01.14-21.32.31:295][752]Cmd: MEM
+[2015.01.14-21.32.31:311][752]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.32.31:311][752]LogMemory: Process Physical Memory: 1030.99 MB used, 1049.98 MB peak
+[2015.01.14-21.32.31:311][752]LogMemory: Process Virtual Memory: 938.50 MB used, 960.73 MB peak
+[2015.01.14-21.32.31:311][752]LogMemory: Physical Memory: 3163.61 MB used, 8153.19 MB total
+[2015.01.14-21.32.31:311][752]LogMemory: Virtual Memory: 1461.36 MB used, 134217728.00 MB total
+[2015.01.14-21.32.31:311][752]LogMemory: 
+[2015.01.14-21.32.31:311][752]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.32.31:441][752]LogLinker:Warning: Asset '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.14-21.32.31:477][752]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.32.31:479][752]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.32.31:480][752]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.32.31
+[2015.01.14-21.32.31:481][752]LogWorld: Bringing up level for play took: 0.001935
+[2015.01.14-21.32.48:774][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C0231080
+[2015.01.14-21.32.57:221][496]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.32.57:272][496]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.57:273][496]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.57:371][496]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.57:372][496]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.32.57:415][496]BlueprintEditorCompileResults: Info [1601.80] Compile of MyCharacter successful! [in 177 ms]
+[2015.01.14-21.32.57:842][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.32.58:154][511]LogSavePackage: Save=304.431458ms
+[2015.01.14-21.32.58:154][511]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter87DEE96A4E4DB25FF7CBE2A808D1ED0C.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.32.59:910][675]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.32.59:919][675]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.33.00:003][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:003][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:025][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.01.14-21.33.00:042][675]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.33.00:112][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:113][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:161][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:162][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:190][675]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.33.00:245][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:246][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:318][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:319][675]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.00:394][675]LogPlayLevel: PIE:  Blueprint regeneration took 484 ms (3 blueprints)
+[2015.01.14-21.33.00:394][675]PIE: New page: PIE session: Main_Menu (Jan 14, 2015, 5:33:00 AM)
+[2015.01.14-21.33.00:395][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000467s)
+[2015.01.14-21.33.00:395][675]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2015.01.14-21.33.00:395][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001257s)
+[2015.01.14-21.33.00:426][675]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.33.00:427][675]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.33.00:428][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.14-13.33.00
+[2015.01.14-21.33.00:428][675]LogWorld: Bringing up level for play took: 0.000599
+[2015.01.14-21.33.00:430][675]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.253
+[2015.01.14-21.33.01:468][785]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve Example_Map.umap
+[2015.01.14-21.33.01:531][785]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve Example_Map.umap
+[2015.01.14-21.33.01:531][785]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.14-21.33.01:531][785]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.14-21.33.01:549][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A72B4680
+[2015.01.14-21.33.01:549][785]Cmd: MEM
+[2015.01.14-21.33.01:565][785]LogMemory: Platform Memory Stats for Windows
+[2015.01.14-21.33.01:565][785]LogMemory: Process Physical Memory: 1065.01 MB used, 1100.92 MB peak
+[2015.01.14-21.33.01:565][785]LogMemory: Process Virtual Memory: 973.58 MB used, 1010.32 MB peak
+[2015.01.14-21.33.01:565][785]LogMemory: Physical Memory: 3215.00 MB used, 8153.19 MB total
+[2015.01.14-21.33.01:565][785]LogMemory: Virtual Memory: 1495.50 MB used, 134217728.00 MB total
+[2015.01.14-21.33.01:565][785]LogMemory: 
+[2015.01.14-21.33.01:565][785]Allocator Stats for TBB: (not implemented)
+[2015.01.14-21.33.01:693][785]LogLinker:Warning: Asset '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.14-21.33.01:729][785]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.33.01:731][785]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.33.01:732][785]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.33.01
+[2015.01.14-21.33.01:733][785]LogWorld: Bringing up level for play took: 0.001911
+[2015.01.14-21.33.16:021][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C7F5A480
+[2015.01.14-21.33.28:736][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.33.28:758][297]LogSavePackage: Save=11.517704ms
+[2015.01.14-21.33.28:758][297]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenu48CE8FD944F0BC7A0277F088F7888D42.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.33.29:954][390]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.33.30:054][390]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.30:055][390]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.33.30:083][390]BlueprintEditorCompileResults: Info [1634.47] Compile of MainMenu successful! [in 124 ms]
+[2015.01.14-21.33.30:656][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.33.30:675][430]LogSavePackage: Save=11.094967ms
+[2015.01.14-21.33.30:675][430]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenu7C23CD1740C4845F0B2B83BB92ACB1BD.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.34.05:612][199]BlueprintLog: New page: Compile PauseMenu
+[2015.01.14-21.34.05:696][199]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.05:697][199]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.05:724][199]BlueprintEditorCompileResults: Info [1670.11] Compile of PauseMenu successful! [in 109 ms]
+[2015.01.14-21.34.06:264][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.14-21.34.06:289][234]LogSavePackage: Save=9.688050ms
+[2015.01.14-21.34.06:289][234]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/PauseMenuDB1F871D44C5FAD111B40C897FBBDC78.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.14-21.34.08:416][427]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.34.08:433][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:434][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:459][427]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.34.08:510][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:511][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:583][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:584][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:636][427]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.34.08:704][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:705][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:742][427]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.34.08:807][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:808][427]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.08:856][427]LogPlayLevel: PIE:  Blueprint regeneration took 440 ms (3 blueprints)
+[2015.01.14-21.34.08:856][427]PIE: New page: PIE session: Main_Menu (Jan 14, 2015, 5:34:08 AM)
+[2015.01.14-21.34.08:857][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000414s)
+[2015.01.14-21.34.08:858][427]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2015.01.14-21.34.08:858][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001119s)
+[2015.01.14-21.34.08:888][427]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.34.08:889][427]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.34.08:890][427]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.14-13.34.08
+[2015.01.14-21.34.08:890][427]LogWorld: Bringing up level for play took: 0.000526
+[2015.01.14-21.34.08:893][427]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.285
+[2015.01.14-21.34.20:586][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C7486020
+[2015.01.14-21.34.22:009][951]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.34.22:027][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:028][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:053][951]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.34.22:106][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:107][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:180][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:181][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:246][951]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.34.22:319][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:319][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:362][951]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.34.22:434][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:435][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.22:487][951]LogPlayLevel: PIE:  Blueprint regeneration took 478 ms (3 blueprints)
+[2015.01.14-21.34.22:487][951]PIE: New page: PIE session: Main_Menu (Jan 14, 2015, 5:34:22 AM)
+[2015.01.14-21.34.22:488][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000437s)
+[2015.01.14-21.34.22:488][951]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2015.01.14-21.34.22:488][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001176s)
+[2015.01.14-21.34.22:521][951]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.34.22:522][951]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.34.22:523][951]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.14-13.34.22
+[2015.01.14-21.34.22:523][951]LogWorld: Bringing up level for play took: 0.000577
+[2015.01.14-21.34.22:525][951]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.348
+[2015.01.14-21.34.28:455][619]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071BDC9D080
+[2015.01.14-21.34.36:225][297]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.34.36:242][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:243][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:267][297]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.34.36:317][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:318][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:388][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:389][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:441][297]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.34.36:509][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:510][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:546][297]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.34.36:611][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:611][297]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.34.36:659][297]LogPlayLevel: PIE:  Blueprint regeneration took 434 ms (3 blueprints)
+[2015.01.14-21.34.36:659][297]PIE: New page: PIE session: Main_Menu (Jan 14, 2015, 5:34:36 AM)
+[2015.01.14-21.34.36:660][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000382s)
+[2015.01.14-21.34.36:661][297]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2015.01.14-21.34.36:661][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001219s)
+[2015.01.14-21.34.36:690][297]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.34.36:692][297]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.34.36:692][297]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.14-13.34.36
+[2015.01.14-21.34.36:692][297]LogWorld: Bringing up level for play took: 0.000518
+[2015.01.14-21.34.36:694][297]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.482
+[2015.01.14-21.34.38:893][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C9B74F40
+[2015.01.14-21.35.30:541][857]BlueprintLog: New page: Compile MainMenu
+[2015.01.14-21.35.30:626][857]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.35.30:627][857]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.35.30:651][857]BlueprintEditorCompileResults: Info [1755.04] Compile of MainMenu successful! [in 105 ms]
+[2015.01.14-21.35.31:263][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.14-21.35.31:289][900]LogSavePackage: Save=11.564942ms
+[2015.01.14-21.35.31:289][900]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MainMenu2B0FF2FF472ED734AAC283ACEB1C210E.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.14-21.36.37:515][602]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.37:516][602]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.44:988][  5]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.36.45:039][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.45:040][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.45:146][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.45:147][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.45:191][  5]BlueprintEditorCompileResults: Info [1829.58] Compile of MyCharacter successful! [in 186 ms]
+[2015.01.14-21.36.45:786][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.36.46:100][ 28]LogSavePackage: Save=305.276947ms
+[2015.01.14-21.36.46:100][ 28]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter927DB18640A2AB261340A5B6B1932839.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.36.47:813][185]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.36.47:822][185]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.36.47:898][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.47:899][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.47:918][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.01.14-21.36.47:931][185]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.36.47:993][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.47:994][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.48:036][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.48:037][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.48:062][185]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.36.48:114][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.48:114][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.48:184][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.48:184][185]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.36.48:248][185]LogPlayLevel: PIE:  Blueprint regeneration took 435 ms (3 blueprints)
+[2015.01.14-21.36.48:248][185]PIE: New page: PIE session: Main_Menu (Jan 14, 2015, 5:36:48 AM)
+[2015.01.14-21.36.48:248][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000406s)
+[2015.01.14-21.36.48:249][185]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2015.01.14-21.36.48:249][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001173s)
+[2015.01.14-21.36.48:278][185]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.36.48:280][185]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.36.48:280][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.14-13.36.48
+[2015.01.14-21.36.48:280][185]LogWorld: Bringing up level for play took: 0.000483
+[2015.01.14-21.36.48:282][185]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.105
+[2015.01.14-21.36.51:730][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071BEF30A40
+[2015.01.14-21.36.55:578][ 13]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.14-21.36.56:588][120]Cmd: MAP LOAD FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.14-21.36.56:588][120]LightingResults: New page: Lighting Build
+[2015.01.14-21.36.56:621][120]LoadErrors: New page: Loading map: Main_Menu.umap
+[2015.01.14-21.36.56:621][120]MapCheck: New page: Map Check
+[2015.01.14-21.36.56:621][120]LightingResults: New page: Lighting Build
+[2015.01.14-21.36.56:639][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071A72B76A0
+[2015.01.14-21.36.56:645][120]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.14-21.36.56:645][120]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.14-21.36.56:657][120]Cmd: MAP CHECKDEP
+[2015.01.14-21.36.56:658][120]MapCheck: New page: Main_Menu - Jan 14, 2015, 5:36:56 AM
+[2015.01.14-21.36.57:069][120]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 411.209ms to complete.
+[2015.01.14-21.36.57:095][120]LogFileHelpers: Loading map 'Main_Menu' took 0.508
+[2015.01.14-21.36.59:837][423]Cmd: MAP LOAD FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.14-21.36.59:837][423]LightingResults: New page: Lighting Build
+[2015.01.14-21.36.59:854][423]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.01.14-21.36.59:855][423]MapCheck: New page: Map Check
+[2015.01.14-21.36.59:855][423]LightingResults: New page: Lighting Build
+[2015.01.14-21.36.59:875][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007196EE11C0
+[2015.01.14-21.36.59:875][423]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.14-21.36.59:875][423]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.36.59:885][423]Cmd: MAP CHECKDEP
+[2015.01.14-21.36.59:885][423]MapCheck: New page: Example_Map - Jan 14, 2015, 5:36:59 AM
+[2015.01.14-21.36.59:966][423]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.059ms to complete.
+[2015.01.14-21.36.59:966][423]LogFileHelpers: Loading map 'Example_Map' took 0.131
+[2015.01.14-21.37.01:272][555]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.37.01:281][555]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.37.01:346][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:347][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:381][555]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.37.01:442][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:443][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:485][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:486][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:510][555]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.37.01:559][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:560][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:627][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:628][555]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.37.01:688][555]LogPlayLevel: PIE:  Blueprint regeneration took 416 ms (3 blueprints)
+[2015.01.14-21.37.01:688][555]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:37:01 AM)
+[2015.01.14-21.37.01:713][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024552s)
+[2015.01.14-21.37.01:714][555]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2015.01.14-21.37.01:714][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.025597s)
+[2015.01.14-21.37.01:756][555]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.37.01:758][555]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.37.01:759][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.37.01
+[2015.01.14-21.37.01:760][555]LogWorld: Bringing up level for play took: 0.001602
+[2015.01.14-21.37.01:762][555]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.585
+[2015.01.14-21.37.12:151][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007196EE1E40
+[2015.01.14-21.38.09:876][813]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.09:877][813]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.29:544][809]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.38.29:595][809]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.29:596][809]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.29:696][809]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.29:697][809]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.29:739][809]BlueprintEditorCompileResults: Info [1934.13] Compile of MyCharacter successful! [in 178 ms]
+[2015.01.14-21.38.30:317][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.38.30:632][830]LogSavePackage: Save=305.164703ms
+[2015.01.14-21.38.30:632][830]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter68E0A6AF4D532409DA003F809DC63B23.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.38.33:593][ 35]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.38.33:602][ 35]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.38.33:679][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:680][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:699][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.01.14-21.38.33:714][ 35]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.38.33:775][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:776][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:818][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:819][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:844][ 35]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.38.33:897][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:898][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:968][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.33:969][ 35]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.38.34:032][ 35]LogPlayLevel: PIE:  Blueprint regeneration took 439 ms (3 blueprints)
+[2015.01.14-21.38.34:032][ 35]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:38:34 AM)
+[2015.01.14-21.38.34:052][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019510s)
+[2015.01.14-21.38.34:053][ 35]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2015.01.14-21.38.34:053][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020672s)
+[2015.01.14-21.38.34:088][ 35]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.38.34:090][ 35]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.38.34:091][ 35]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.38.34
+[2015.01.14-21.38.34:091][ 35]LogWorld: Bringing up level for play took: 0.001642
+[2015.01.14-21.38.34:094][ 35]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.917
+[2015.01.14-21.38.41:215][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071C92F0F40
+[2015.01.14-21.39.04:629][115]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.04:630][115]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.36:406][800]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.39.36:456][800]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.36:457][800]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.36:556][800]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.36:557][800]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.36:599][800]BlueprintEditorCompileResults: Info [2000.99] Compile of MyCharacter successful! [in 177 ms]
+[2015.01.14-21.39.37:158][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.39.37:471][821]LogSavePackage: Save=303.930176ms
+[2015.01.14-21.39.37:471][821]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter8960BCE24C8C2D3462FB61948F43F7BC.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.39.39:401][988]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.39.39:411][988]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.39.39:488][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:489][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:510][988]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.01.14-21.39.39:524][988]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.39.39:587][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:588][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:632][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:633][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:659][988]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.39.39:709][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:710][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:780][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:781][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.39:846][988]LogPlayLevel: PIE:  Blueprint regeneration took 444 ms (3 blueprints)
+[2015.01.14-21.39.39:846][988]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:39:39 AM)
+[2015.01.14-21.39.39:867][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020618s)
+[2015.01.14-21.39.39:867][988]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2015.01.14-21.39.39:868][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021622s)
+[2015.01.14-21.39.39:908][988]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.39.39:910][988]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.39.39:911][988]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.39.39
+[2015.01.14-21.39.39:911][988]LogWorld: Bringing up level for play took: 0.001616
+[2015.01.14-21.39.39:914][988]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.736
+[2015.01.14-21.39.46:653][728]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D3EA1940
+[2015.01.14-21.39.48:525][941]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.39.48:534][941]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.39.48:598][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:599][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:634][941]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.39.48:696][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:697][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:741][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:741][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:765][941]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.39.48:815][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:816][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:884][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:885][941]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.39.48:948][941]LogPlayLevel: PIE:  Blueprint regeneration took 422 ms (3 blueprints)
+[2015.01.14-21.39.48:948][941]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:39:48 AM)
+[2015.01.14-21.39.48:968][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020356s)
+[2015.01.14-21.39.48:969][941]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2015.01.14-21.39.48:970][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021437s)
+[2015.01.14-21.39.49:009][941]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.39.49:011][941]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.39.49:013][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.39.49
+[2015.01.14-21.39.49:013][941]LogWorld: Bringing up level for play took: 0.001575
+[2015.01.14-21.39.49:015][941]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.162
+[2015.01.14-21.39.52:211][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D3433E20
+[2015.01.14-21.39.58:115][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.39.58:423][688]LogSavePackage: Save=300.481812ms
+[2015.01.14-21.39.58:423][688]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacterDDBA15824D53EA06B381E2B811CD0287.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.40.18:547][944]BlueprintLog: New page: Compile PauseMenu
+[2015.01.14-21.40.18:598][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.01.14-21.40.18:644][944]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.18:645][944]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.18:671][944]BlueprintEditorCompileResults: Info [2043.06] Compile of PauseMenu successful! [in 121 ms]
+[2015.01.14-21.40.19:266][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.14-21.40.19:296][982]LogSavePackage: Save=9.703997ms
+[2015.01.14-21.40.19:296][982]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/PauseMenu73E661634E41F04E63545685647BBB8B.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.14-21.40.29:918][789]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.40.29:946][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.29:947][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.29:971][789]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.40.30:021][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:021][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:100][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:101][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:167][789]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.40.30:240][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:241][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:283][789]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.40.30:353][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:353][789]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.40.30:404][789]LogPlayLevel: PIE:  Blueprint regeneration took 487 ms (3 blueprints)
+[2015.01.14-21.40.30:405][789]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:40:30 AM)
+[2015.01.14-21.40.30:426][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021417s)
+[2015.01.14-21.40.30:427][789]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2015.01.14-21.40.30:428][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022671s)
+[2015.01.14-21.40.30:469][789]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.40.30:470][789]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.40.30:472][789]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.40.30
+[2015.01.14-21.40.30:472][789]LogWorld: Bringing up level for play took: 0.001706
+[2015.01.14-21.40.30:475][789]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.298
+[2015.01.14-21.40.41:251][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071D4821E40
+[2015.01.14-21.40.43:643][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.14-21.40.43:770][178]LogSavePackage: Save=92.873672ms
+[2015.01.14-21.40.43:770][178]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/Example_MapB55CB87041A89A6D120464A8EBB84C51.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap'
+[2015.01.14-21.44.45:870][269]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.14-21.46.14:990][642]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.14:991][642]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.15:012][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2015.01.14-21.46.15:012][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.01.14-21.46.21:063][907]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.21:064][907]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.21:084][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.01.14-21.46.24:831][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.24:832][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.24:852][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.01.14-21.46.27:760][195]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.46.27:811][195]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.27:812][195]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.27:868][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.01.14-21.46.27:939][195]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.27:940][195]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.46.27:985][195]BlueprintEditorCompileResults: Info [2412.37] Compile of MyCharacter successful! [in 209 ms]
+[2015.01.14-21.47.03:403][770]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.47.03:455][770]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.03:456][770]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.03:509][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.01.14-21.47.03:560][770]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.03:561][770]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.03:606][770]BlueprintEditorCompileResults: Info [2447.99] Compile of MyCharacter successful! [in 186 ms]
+[2015.01.14-21.47.16:184][453]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.47.16:193][453]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.47.16:271][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:272][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:294][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.01.14-21.47.16:309][453]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.47.16:374][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:375][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:419][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:420][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:447][453]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.47.16:502][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:502][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:573][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:574][453]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.47.16:637][453]LogPlayLevel: PIE:  Blueprint regeneration took 453 ms (3 blueprints)
+[2015.01.14-21.47.16:638][453]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:47:16 AM)
+[2015.01.14-21.47.16:658][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020253s)
+[2015.01.14-21.47.16:659][453]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2015.01.14-21.47.16:660][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021805s)
+[2015.01.14-21.47.16:701][453]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.47.16:703][453]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.47.16:704][453]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.47.16
+[2015.01.14-21.47.16:705][453]LogWorld: Bringing up level for play took: 0.001646
+[2015.01.14-21.47.16:707][453]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.471
+[2015.01.14-21.47.25:046][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.01.14-21.47.25:081][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071DC2494E0
+[2015.01.14-21.48.09:971][136]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.14-21.48.09:971][136]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.14-21.48.09:971][136]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6680.EdGraphPin_33785"''
+[2015.01.14-21.49.16:202][958]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.14-21.49.16:203][958]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.14-21.49.16:203][958]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6680.EdGraphPin_33785"''
+[2015.01.14-21.50.23:054][ 11]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.50.23:110][ 11]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.23:111][ 11]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.23:165][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.01.14-21.50.23:215][ 11]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.23:216][ 11]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.23:257][ 11]BlueprintEditorCompileResults: Info [2647.64] Compile of MyCharacter successful! [in 183 ms]
+[2015.01.14-21.50.23:850][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.50.24:169][ 30]LogSavePackage: Save=307.955383ms
+[2015.01.14-21.50.24:169][ 30]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter0CAE6F7149E94000D5EECDB7DA30AFF4.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.50.29:666][380]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.50.29:675][380]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.50.29:756][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.29:757][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.29:778][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.01.14-21.50.29:792][380]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.50.29:857][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.29:858][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.29:902][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.29:903][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.29:928][380]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.50.29:984][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.29:985][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.30:056][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.30:057][380]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.50.30:124][380]LogPlayLevel: PIE:  Blueprint regeneration took 457 ms (3 blueprints)
+[2015.01.14-21.50.30:124][380]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:50:30 AM)
+[2015.01.14-21.50.30:144][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019614s)
+[2015.01.14-21.50.30:145][380]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2015.01.14-21.50.30:145][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020918s)
+[2015.01.14-21.50.30:186][380]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.50.30:187][380]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.50.30:188][380]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.50.30
+[2015.01.14-21.50.30:189][380]LogWorld: Bringing up level for play took: 0.001618
+[2015.01.14-21.50.30:191][380]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.014
+[2015.01.14-21.50.37:373][149]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.01.14-21.50.37:410][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071DA070360
+[2015.01.14-21.52.23:086][865]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.14-21.52.23:086][865]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.14-21.52.23:087][865]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6680.EdGraphPin_33785"''
+[2015.01.14-21.52.26:551][ 24]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.14-21.52.26:551][ 24]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.14-21.53.08:114][936]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.53.08:169][936]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.08:169][936]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.08:223][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2015.01.14-21.53.08:223][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.01.14-21.53.08:275][936]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.08:276][936]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.08:323][936]BlueprintEditorCompileResults: Info [2812.71] Compile of MyCharacter successful! [in 189 ms]
+[2015.01.14-21.53.08:945][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.53.09:248][957]LogSavePackage: Save=295.733612ms
+[2015.01.14-21.53.09:248][957]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter849C909A4293D3EEF959D89AC621D7C4.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.53.15:093][236]BlueprintLog: New page: Compile MyCharacter
+[2015.01.14-21.53.15:149][236]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.15:150][236]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.15:203][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.01.14-21.53.15:253][236]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.15:254][236]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.15:301][236]BlueprintEditorCompileResults: Info [2819.69] Compile of MyCharacter successful! [in 188 ms]
+[2015.01.14-21.53.15:878][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.14-21.53.16:195][255]LogSavePackage: Save=309.960144ms
+[2015.01.14-21.53.16:195][255]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/MyCharacter4E5D34FE4445FB1565FE0B8C9041EF00.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.14-21.53.20:533][516]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.14-21.53.20:543][516]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.14-21.53.20:622][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:623][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:645][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.01.14-21.53.20:659][516]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.14-21.53.20:724][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:725][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:769][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:769][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:796][516]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.14-21.53.20:853][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:854][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:927][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.20:927][516]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.14-21.53.21:001][516]LogPlayLevel: PIE:  Blueprint regeneration took 466 ms (3 blueprints)
+[2015.01.14-21.53.21:001][516]PIE: New page: PIE session: Example_Map (Jan 14, 2015, 5:53:21 AM)
+[2015.01.14-21.53.21:025][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024379s)
+[2015.01.14-21.53.21:026][516]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2015.01.14-21.53.21:026][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.025400s)
+[2015.01.14-21.53.21:067][516]LogWorld: Game class is 'MyGame_C'
+[2015.01.14-21.53.21:069][516]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.14-21.53.21:070][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.14-13.53.21
+[2015.01.14-21.53.21:071][516]LogWorld: Bringing up level for play took: 0.001620
+[2015.01.14-21.53.21:073][516]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.104
+[2015.01.14-21.53.26:373][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.01.14-21.53.26:412][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071DE1A4A40
+[2015.01.14-21.53.38:130][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.14-21.53.38:238][164]LogSavePackage: Save=71.175980ms
+[2015.01.14-21.53.38:238][164]LogSavePackage: Moving '../../../../../../Users/Stevo/Desktop/BZS_Template/Saved/Example_Map317165124D219D505D9F3AA00517611E.tmp' to '../../../../../../Users/Stevo/Desktop/BZS_Template/Content/Maps/Example_Map.umap'
+[2015.01.14-21.53.40:788][279]Cmd: QUIT_EDITOR
+[2015.01.14-21.53.41:126][279]LogExit: Preparing to exit.
+[2015.01.14-21.53.41:715][279]LogExit: Editor shut down
+[2015.01.14-21.53.41:715][279]LogExit: Transaction tracking system shut down
+[2015.01.14-21.53.41:716][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071894CE3E0
+[2015.01.14-21.53.41:716][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071985CDD00
+[2015.01.14-21.53.41:718][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B2A828E0
+[2015.01.14-21.53.41:718][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B2A83D80
+[2015.01.14-21.53.41:718][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B2A805E0
+[2015.01.14-21.53.41:718][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071B2A81D00
+[2015.01.14-21.53.41:718][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071AD7D5B20
+[2015.01.14-21.53.41:718][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071BB528CC0
+[2015.01.14-21.53.41:718][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007197B7A840
+[2015.01.14-21.53.41:765][279]LogExit: Object subsystem successfully closed.
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module SequencerWidgets (173)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.14-21.53.41:811][279]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.14-21.53.41:812][279]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.14-21.53.41:927][279]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.14-21.53.41:928][279]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.14-21.53.41:993][279]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.14-21.53.41:994][279]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.14-21.53.41:994][279]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.14-21.53.41:994][279]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.14-21.53.41:996][279]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.14-21.53.42:096][279]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.14-21.53.42:096][279]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.14-21.53.42:096][279]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.14-21.53.42:099][279]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.14-21.53.42:099][279]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.14-21.53.42:100][279]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.14-21.53.42:107][279]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.14-21.53.42:153][279]LogDerivedDataCache: Shutdown
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.14-21.53.42:153][279]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.14-21.53.42:154][279]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.14-21.53.42:154][279]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.14-21.53.42:154][279]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.14-21.53.42:157][279]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.14-21.53.42:158][279]LogExit: Exiting.
+[2015.01.14-21.53.42:180][279]Log file closed, 01/14/15 13:53:42
