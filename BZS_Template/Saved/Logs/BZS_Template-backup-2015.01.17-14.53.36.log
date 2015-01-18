@@ -1,0 +1,1272 @@
+﻿Log file open, 01/15/15 21:39:41
+LogInit:Display: Running engine for game: BZS_Template
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.16-05.39.41:826][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.16-05.39.41:885][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.16-05.39.41:936][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.16-05.39.41:946][  0]LogInit: Object subsystem initialized
+[2015.01.16-05.39.41:948][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.16-05.39.41:948][  0]LogConsoleResponse:Warning:   Found in ini file '../../../Templates/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.16-05.39.41:948][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.16-05.39.41:948][  0]LogConsoleResponse:Warning:   Found in ini file '../../../Templates/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.16-05.39.41:948][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.16-05.39.41:948][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.16-05.39.41:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.16-05.39.41:975][  0]LogInit: Computer: STEVO-PC
+[2015.01.16-05.39.41:975][  0]LogInit: User: Stevo
+[2015.01.16-05.39.41:975][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.16-05.39.41:975][  0]LogInit: High frequency timer resolution =3.323579 MHz
+[2015.01.16-05.39.41:976][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.01.16-05.39.41:976][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.39.41:976][  0]LogMemory: Process Physical Memory: 48.42 MB used, 48.42 MB peak
+[2015.01.16-05.39.41:976][  0]LogMemory: Process Virtual Memory: 25.11 MB used, 25.11 MB peak
+[2015.01.16-05.39.41:976][  0]LogMemory: Physical Memory: 4228.70 MB used, 8153.19 MB total
+[2015.01.16-05.39.41:976][  0]LogMemory: Virtual Memory: 271.26 MB used, 134217728.00 MB total
+[2015.01.16-05.39.42:010][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.01.16-05.39.42:010][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.01.16-05.39.42:014][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.16-05.39.42:014][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.16-05.39.42:014][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.16-05.39.42:020][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.16-05.39.42:034][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.16-05.39.42:098][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.16-05.39.42:393][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.16-05.39.48:843][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.16-05.39.49:523][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.16-05.39.49:628][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.16-05.39.49:716][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.16-05.39.49:716][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.16-05.39.49:716][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../Templates/BZS_Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.16-05.39.49:716][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.16-05.39.49:825][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.16-05.39.49:837][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stevo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.16-05.39.50:075][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.16-05.39.50:292][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.16-05.39.50:292][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.16-05.39.50:742][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.16-05.39.50:815][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.16-05.39.51:747][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.16-05.39.52:351][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Program Files/Epic Games/4.6/Templates/BZS_Template/Binaries/Win64. Error: 0
+[2015.01.16-05.39.52:954][  0]SourceControl: Info Source control is disabled
+[2015.01.16-05.39.52:954][  0]SourceControl: Info Source control is disabled
+[2015.01.16-05.39.52:989][  0]SourceControl: Info Source control is disabled
+[2015.01.16-05.39.53:282][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.16-05.39.53:282][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.16-05.39.53:351][  0]LogEngine: Initializing Engine...
+[2015.01.16-05.39.53:544][  0]LogInit: XAudio2 using 'Speakers (2- C-Media USB Audio Device   )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.16-05.39.53:568][  0]LogInit: FAudioDevice initialized.
+[2015.01.16-05.39.53:588][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.16-05.39.53:610][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.16-05.39.53:615][  0]LogInit: Texture streaming: Enabled
+[2015.01.16-05.39.53:651][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.16-05.39.53:651][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.16-05.39.53:653][  0]LogAnalytics: SetUserId 5a045227e89f0642cba4625644d0354a
+[2015.01.16-05.39.53:653][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.16-05.39.53:667][  0]LogInit: Transaction tracking system initialized
+[2015.01.16-05.39.53:791][  0]BlueprintLog: New page: Editor Load
+[2015.01.16-05.39.53:820][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.01.16-05.39.53:820][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.16-05.39.54:397][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.16-05.39.54:987][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.16-05.39.55:196][  0]LogConsoleResponse:Display: 
+[2015.01.16-05.39.55:257][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.39.55:468][  0]SourceControl: Info Source control is disabled
+[2015.01.16-05.39.55:469][  0]Cmd: MAP LOAD FILE="../../../Templates/BZS_Template/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.16-05.39.55:469][  0]LightingResults: New page: Lighting Build
+[2015.01.16-05.39.55:477][  0]MapCheck: New page: Map Check
+[2015.01.16-05.39.55:477][  0]LightingResults: New page: Lighting Build
+[2015.01.16-05.39.55:485][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C058D1D940
+[2015.01.16-05.39.55:761][  0]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.39.56:192][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2015.01.16-05.39.56:227][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.16-05.39.56:227][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.39.56:228][  0]Cmd: MAP CHECKDEP
+[2015.01.16-05.39.56:228][  0]MapCheck: New page: Main_Menu - Jan 15, 2015, 1:39:56 PM
+[2015.01.16-05.39.56:343][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.463ms to complete.
+[2015.01.16-05.39.56:343][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.875
+[2015.01.16-05.39.56:424][  0]LogCollectionManager: Loaded 0 collections in 0.000868 seconds
+[2015.01.16-05.39.56:537][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.16-05.39.56:547][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.16-05.39.56:572][  0]LogLoad: Full Startup: 16.03 seconds (BP compile: 0.27 seconds)
+[2015.01.16-05.39.56:914][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.16-05.39.57:081][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.01.16-05.39.57:589][  2]LogAssetRegistry: Asset discovery search completed in 3.7805 seconds
+[2015.01.16-05.41.48:910][622]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.16-05.41.58:130][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.41.58:133][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.41.58:197][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.41.58:198][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.42.31:807][ 48]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.16-05.44.49:249][376]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-05.44.49:367][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.01.16-05.44.49:367][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.16-05.44.49:519][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.49:520][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.49:555][376]BlueprintEditorCompileResults: Info [0309.02] Compile of PauseMenu successful! [in 297 ms]
+[2015.01.16-05.44.52:329][515]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-05.44.52:356][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.52:357][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.52:380][515]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-05.44.52:458][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.52:458][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.52:607][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.52:608][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.52:710][515]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.16-05.44.52:757][515]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-05.44.52:849][515]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-05.44.52:970][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.52:972][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.53:012][515]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-05.44.53:117][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.53:118][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.44.53:161][515]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-05.44.53:322][515]LogPlayLevel: PIE:  Blueprint regeneration took 991 ms (6 blueprints)
+[2015.01.16-05.44.53:322][515]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 1:44:53 PM)
+[2015.01.16-05.44.53:324][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001439s)
+[2015.01.16-05.44.53:324][515]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2015.01.16-05.44.53:324][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002315s)
+[2015.01.16-05.44.53:424][515]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.01.16-05.44.53:427][515]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.44.53:429][515]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.44.53:429][515]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.44.53
+[2015.01.16-05.44.53:429][515]LogWorld: Bringing up level for play took: 0.000564
+[2015.01.16-05.44.53:432][515]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.218
+[2015.01.16-05.44.55:726][634]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Main_Menu.umap
+[2015.01.16-05.44.55:799][634]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Main_Menu.umap
+[2015.01.16-05.44.55:799][634]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-05.44.55:799][634]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-05.44.55:840][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C063FD5800
+[2015.01.16-05.44.55:840][634]Cmd: MEM
+[2015.01.16-05.44.55:865][634]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.44.55:865][634]LogMemory: Process Physical Memory: 529.66 MB used, 532.05 MB peak
+[2015.01.16-05.44.55:865][634]LogMemory: Process Virtual Memory: 427.96 MB used, 432.22 MB peak
+[2015.01.16-05.44.55:865][634]LogMemory: Physical Memory: 4669.35 MB used, 8153.19 MB total
+[2015.01.16-05.44.55:865][634]LogMemory: Virtual Memory: 963.54 MB used, 134217728.00 MB total
+[2015.01.16-05.44.55:865][634]LogMemory: 
+[2015.01.16-05.44.55:865][634]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.44.55:867][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001594s)
+[2015.01.16-05.44.55:867][634]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2015.01.16-05.44.55:868][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002622s)
+[2015.01.16-05.44.55:868][634]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.44.55:870][634]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.44.55:871][634]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.44.55
+[2015.01.16-05.44.55:871][634]LogWorld: Bringing up level for play took: 0.000648
+[2015.01.16-05.44.55:871][634]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-05.44.56:740][680]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve Example_Map.umap
+[2015.01.16-05.44.56:829][680]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Example_Map.umap
+[2015.01.16-05.44.56:829][680]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-05.44.56:829][680]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-05.44.56:846][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C059085D00
+[2015.01.16-05.44.56:848][680]Cmd: MEM
+[2015.01.16-05.44.56:877][680]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.44.56:877][680]LogMemory: Process Physical Memory: 530.06 MB used, 532.05 MB peak
+[2015.01.16-05.44.56:877][680]LogMemory: Process Virtual Memory: 428.28 MB used, 432.22 MB peak
+[2015.01.16-05.44.56:877][680]LogMemory: Physical Memory: 4666.71 MB used, 8153.19 MB total
+[2015.01.16-05.44.56:877][680]LogMemory: Virtual Memory: 963.54 MB used, 134217728.00 MB total
+[2015.01.16-05.44.56:877][680]LogMemory: 
+[2015.01.16-05.44.56:877][680]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.44.57:523][680]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.44.57:592][680]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.44.57:593][680]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-05.44.57:596][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-21.44.57
+[2015.01.16-05.44.57:596][680]LogWorld: Bringing up level for play took: 0.002613
+[2015.01.16-05.45.08:975][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C06A83A340
+[2015.01.16-05.47.03:146][710]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-05.47.03:318][710]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.03:319][710]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.03:353][710]BlueprintEditorCompileResults: Info [0442.82] Compile of PauseMenu successful! [in 197 ms]
+[2015.01.16-05.47.05:987][822]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-05.47.06:021][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:023][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:063][822]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-05.47.06:155][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:158][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:331][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:344][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:435][822]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-05.47.06:523][822]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-05.47.06:642][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:644][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:698][822]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-05.47.06:823][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:829][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.06:875][822]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-05.47.06:996][822]LogPlayLevel: PIE:  Blueprint regeneration took 1009 ms (5 blueprints)
+[2015.01.16-05.47.06:997][822]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 1:47:06 PM)
+[2015.01.16-05.47.06:998][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001219s)
+[2015.01.16-05.47.06:999][822]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2015.01.16-05.47.06:999][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002494s)
+[2015.01.16-05.47.07:032][822]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.47.07:033][822]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.47.07:035][822]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.47.07
+[2015.01.16-05.47.07:035][822]LogWorld: Bringing up level for play took: 0.001436
+[2015.01.16-05.47.07:042][822]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.827
+[2015.01.16-05.47.08:512][906]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve Example_Map.umap
+[2015.01.16-05.47.08:596][906]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve Example_Map.umap
+[2015.01.16-05.47.08:596][906]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-05.47.08:596][906]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-05.47.08:631][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C06F34D800
+[2015.01.16-05.47.08:632][906]Cmd: MEM
+[2015.01.16-05.47.08:654][906]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.47.08:654][906]LogMemory: Process Physical Memory: 611.71 MB used, 643.61 MB peak
+[2015.01.16-05.47.08:654][906]LogMemory: Process Virtual Memory: 507.13 MB used, 542.21 MB peak
+[2015.01.16-05.47.08:654][906]LogMemory: Physical Memory: 4816.02 MB used, 8153.19 MB total
+[2015.01.16-05.47.08:654][906]LogMemory: Virtual Memory: 1037.49 MB used, 134217728.00 MB total
+[2015.01.16-05.47.08:654][906]LogMemory: 
+[2015.01.16-05.47.08:654][906]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.47.08:952][906]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.47.09:039][906]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.47.09:040][906]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-05.47.09:044][906]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-21.47.09
+[2015.01.16-05.47.09:044][906]LogWorld: Bringing up level for play took: 0.003590
+[2015.01.16-05.47.13:216][135]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Main_Menu.umap
+[2015.01.16-05.47.13:285][135]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Main_Menu.umap
+[2015.01.16-05.47.13:285][135]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-05.47.13:285][135]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-05.47.13:308][135]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0645F18A0
+[2015.01.16-05.47.13:308][135]Cmd: MEM
+[2015.01.16-05.47.13:336][135]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.47.13:336][135]LogMemory: Process Physical Memory: 628.93 MB used, 678.70 MB peak
+[2015.01.16-05.47.13:336][135]LogMemory: Process Virtual Memory: 524.13 MB used, 574.43 MB peak
+[2015.01.16-05.47.13:336][135]LogMemory: Physical Memory: 4820.54 MB used, 8153.19 MB total
+[2015.01.16-05.47.13:336][135]LogMemory: Virtual Memory: 1054.30 MB used, 134217728.00 MB total
+[2015.01.16-05.47.13:336][135]LogMemory: 
+[2015.01.16-05.47.13:336][135]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.47.13:339][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002322s)
+[2015.01.16-05.47.13:340][135]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2015.01.16-05.47.13:340][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.003209s)
+[2015.01.16-05.47.13:341][135]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.47.13:343][135]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.47.13:344][135]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.47.13
+[2015.01.16-05.47.13:344][135]LogWorld: Bringing up level for play took: 0.000617
+[2015.01.16-05.47.13:344][135]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-05.47.14:253][186]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Example_Map.umap
+[2015.01.16-05.47.14:335][186]LogPackageName: SearchForPackageOnDisk took   0.080s to resolve Example_Map.umap
+[2015.01.16-05.47.14:335][186]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-05.47.14:335][186]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-05.47.14:356][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C05907BEC0
+[2015.01.16-05.47.14:360][186]Cmd: MEM
+[2015.01.16-05.47.14:383][186]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.47.14:383][186]LogMemory: Process Physical Memory: 624.95 MB used, 678.70 MB peak
+[2015.01.16-05.47.14:383][186]LogMemory: Process Virtual Memory: 520.13 MB used, 574.43 MB peak
+[2015.01.16-05.47.14:383][186]LogMemory: Physical Memory: 4836.03 MB used, 8153.19 MB total
+[2015.01.16-05.47.14:383][186]LogMemory: Virtual Memory: 1050.30 MB used, 134217728.00 MB total
+[2015.01.16-05.47.14:383][186]LogMemory: 
+[2015.01.16-05.47.14:383][186]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.47.14:594][186]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.47.14:677][186]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.47.14:679][186]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-05.47.14:681][186]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-21.47.14
+[2015.01.16-05.47.14:683][186]LogWorld: Bringing up level for play took: 0.003413
+[2015.01.16-05.47.25:269][797]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve Main_Menu.umap
+[2015.01.16-05.47.25:345][797]LogPackageName: SearchForPackageOnDisk took   0.073s to resolve Main_Menu.umap
+[2015.01.16-05.47.25:345][797]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-05.47.25:345][797]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-05.47.25:366][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C05179F920
+[2015.01.16-05.47.25:366][797]Cmd: MEM
+[2015.01.16-05.47.25:385][797]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.47.25:385][797]LogMemory: Process Physical Memory: 629.41 MB used, 678.70 MB peak
+[2015.01.16-05.47.25:385][797]LogMemory: Process Virtual Memory: 524.62 MB used, 574.43 MB peak
+[2015.01.16-05.47.25:385][797]LogMemory: Physical Memory: 4808.96 MB used, 8153.19 MB total
+[2015.01.16-05.47.25:385][797]LogMemory: Virtual Memory: 1054.30 MB used, 134217728.00 MB total
+[2015.01.16-05.47.25:385][797]LogMemory: 
+[2015.01.16-05.47.25:385][797]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.47.25:386][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001184s)
+[2015.01.16-05.47.25:386][797]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2015.01.16-05.47.25:387][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001796s)
+[2015.01.16-05.47.25:387][797]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.47.25:388][797]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.47.25:389][797]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.47.25
+[2015.01.16-05.47.25:389][797]LogWorld: Bringing up level for play took: 0.000524
+[2015.01.16-05.47.25:389][797]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-05.47.42:953][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.47.43:022][570]LogSavePackage: Save=26.329748ms
+[2015.01.16-05.47.43:022][570]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu73846973430FB643AB435BB03DCCF496.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.47.50:273][801]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.47.50:273][801]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.49.52:743][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.49.52:796][880]LogSavePackage: Save=29.712849ms
+[2015.01.16-05.49.52:796][880]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu54B439D44F0FFCD667896D8576A1633E.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.51.12:905][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.51.12:977][431]LogSavePackage: Save=20.569393ms
+[2015.01.16-05.51.12:977][431]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu547E58034FD03437D573C693FAB1C5D5.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.51.41:224][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.51.41:270][406]LogSavePackage: Save=17.090612ms
+[2015.01.16-05.51.41:270][406]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenuAA682A0E441A0D9D6D55D3ABFFC65542.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.51.48:718][649]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.51.48:720][649]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.51.48:836][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C05179D440
+[2015.01.16-05.51.50:695][715]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-05.51.50:853][715]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.51.50:854][715]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.51.50:877][715]BlueprintEditorCompileResults: Info [0730.34] Compile of PauseMenu successful! [in 172 ms]
+[2015.01.16-05.52.00:988][ 88]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-05.52.01:025][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:027][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:062][ 88]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-05.52.01:167][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:168][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:316][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:317][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:467][ 88]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-05.52.01:570][ 88]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-05.52.01:707][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:709][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:783][ 88]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-05.52.01:917][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:918][ 88]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.01:956][ 88]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-05.52.02:125][ 88]LogPlayLevel: PIE:  Blueprint regeneration took 1137 ms (5 blueprints)
+[2015.01.16-05.52.02:126][ 88]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 1:52:02 PM)
+[2015.01.16-05.52.02:128][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001473s)
+[2015.01.16-05.52.02:128][ 88]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2015.01.16-05.52.02:128][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002202s)
+[2015.01.16-05.52.02:183][ 88]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.52.02:186][ 88]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.52.02:187][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.52.02
+[2015.01.16-05.52.02:187][ 88]LogWorld: Bringing up level for play took: 0.000742
+[2015.01.16-05.52.02:190][ 88]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.976
+[2015.01.16-05.52.03:637][166]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve Example_Map.umap
+[2015.01.16-05.52.03:712][166]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve Example_Map.umap
+[2015.01.16-05.52.03:713][166]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-05.52.03:713][166]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-05.52.03:740][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0709F40E0
+[2015.01.16-05.52.03:740][166]Cmd: MEM
+[2015.01.16-05.52.03:764][166]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.52.03:765][166]LogMemory: Process Physical Memory: 682.57 MB used, 682.57 MB peak
+[2015.01.16-05.52.03:765][166]LogMemory: Process Virtual Memory: 582.57 MB used, 582.57 MB peak
+[2015.01.16-05.52.03:765][166]LogMemory: Physical Memory: 4872.25 MB used, 8153.19 MB total
+[2015.01.16-05.52.03:765][166]LogMemory: Virtual Memory: 1118.14 MB used, 134217728.00 MB total
+[2015.01.16-05.52.03:765][166]LogMemory: 
+[2015.01.16-05.52.03:765][166]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.52.04:099][166]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.52.04:153][166]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.52.04:154][166]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-05.52.04:157][166]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-21.52.04
+[2015.01.16-05.52.04:158][166]LogWorld: Bringing up level for play took: 0.003546
+[2015.01.16-05.52.08:088][401]LogPackageName: SearchForPackageOnDisk took   0.073s to resolve Main_Menu.umap
+[2015.01.16-05.52.08:174][401]LogPackageName: SearchForPackageOnDisk took   0.084s to resolve Main_Menu.umap
+[2015.01.16-05.52.08:174][401]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-05.52.08:174][401]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-05.52.08:208][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C06F48BBA0
+[2015.01.16-05.52.08:209][401]Cmd: MEM
+[2015.01.16-05.52.08:226][401]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.52.08:226][401]LogMemory: Process Physical Memory: 708.51 MB used, 751.71 MB peak
+[2015.01.16-05.52.08:226][401]LogMemory: Process Virtual Memory: 606.07 MB used, 653.33 MB peak
+[2015.01.16-05.52.08:226][401]LogMemory: Physical Memory: 4901.52 MB used, 8153.19 MB total
+[2015.01.16-05.52.08:226][401]LogMemory: Virtual Memory: 1141.65 MB used, 134217728.00 MB total
+[2015.01.16-05.52.08:226][401]LogMemory: 
+[2015.01.16-05.52.08:226][401]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.52.08:228][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001847s)
+[2015.01.16-05.52.08:229][401]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2015.01.16-05.52.08:229][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002635s)
+[2015.01.16-05.52.08:230][401]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.52.08:232][401]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.52.08:232][401]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.52.08
+[2015.01.16-05.52.08:233][401]LogWorld: Bringing up level for play took: 0.000701
+[2015.01.16-05.52.08:233][401]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-05.52.09:659][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C05C248C20
+[2015.01.16-05.52.12:719][558]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-05.52.12:753][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.12:754][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.12:782][558]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-05.52.12:884][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.12:885][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.13:003][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.13:004][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.13:089][558]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-05.52.13:155][558]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-05.52.13:245][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.13:246][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.13:312][558]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-05.52.13:440][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.13:442][558]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.13:505][558]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-05.52.13:670][558]LogPlayLevel: PIE:  Blueprint regeneration took 951 ms (5 blueprints)
+[2015.01.16-05.52.13:670][558]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 1:52:13 PM)
+[2015.01.16-05.52.13:674][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003026s)
+[2015.01.16-05.52.13:675][558]LogPlayLevel: PIE: World Init took: (0.001665s)
+[2015.01.16-05.52.13:676][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.005069s)
+[2015.01.16-05.52.13:714][558]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.52.13:716][558]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.52.13:716][558]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.52.13
+[2015.01.16-05.52.13:716][558]LogWorld: Bringing up level for play took: 0.000657
+[2015.01.16-05.52.13:721][558]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.506
+[2015.01.16-05.52.15:106][632]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve Example_Map.umap
+[2015.01.16-05.52.15:177][632]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Example_Map.umap
+[2015.01.16-05.52.15:177][632]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-05.52.15:177][632]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-05.52.15:201][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C076DA7740
+[2015.01.16-05.52.15:201][632]Cmd: MEM
+[2015.01.16-05.52.15:220][632]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.52.15:220][632]LogMemory: Process Physical Memory: 729.42 MB used, 751.71 MB peak
+[2015.01.16-05.52.15:220][632]LogMemory: Process Virtual Memory: 627.75 MB used, 653.33 MB peak
+[2015.01.16-05.52.15:220][632]LogMemory: Physical Memory: 4903.53 MB used, 8153.19 MB total
+[2015.01.16-05.52.15:220][632]LogMemory: Virtual Memory: 1161.71 MB used, 134217728.00 MB total
+[2015.01.16-05.52.15:220][632]LogMemory: 
+[2015.01.16-05.52.15:220][632]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.52.15:421][632]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.52.15:497][632]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.52.15:498][632]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-05.52.15:501][632]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-21.52.15
+[2015.01.16-05.52.15:502][632]LogWorld: Bringing up level for play took: 0.002906
+[2015.01.16-05.52.19:408][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C071523BA0
+[2015.01.16-05.52.52:247][180]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-05.52.52:414][180]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.52:415][180]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.52.52:446][180]BlueprintEditorCompileResults: Info [0791.91] Compile of PauseMenu successful! [in 185 ms]
+[2015.01.16-05.52.53:218][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.52.53:276][209]LogSavePackage: Save=22.809147ms
+[2015.01.16-05.52.53:276][209]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu7DDB90CE4D4E44EC9F0F4FBBA2A06591.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.53.06:051][729]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-05.53.06:197][729]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.53.06:198][729]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.53.06:230][729]BlueprintEditorCompileResults: Info [0805.69] Compile of PauseMenu successful! [in 171 ms]
+[2015.01.16-05.53.06:718][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.53.06:804][746]LogSavePackage: Save=31.864445ms
+[2015.01.16-05.53.06:804][746]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu03069E4E4CB643DC113DC7A89133D075.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.55.13:671][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Menu' took 0.027
+[2015.01.16-05.55.13:743][846]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMD/PauseMenu] ([1] browsable assets)...
+[2015.01.16-05.55.13:743][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMD/PauseMenu]
+[2015.01.16-05.55.13:773][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Saved/Autosaves/Game/UMD/PauseMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.01.16-05.55.13:902][846]LogSavePackage: Save=92.471100ms
+[2015.01.16-05.55.13:902][846]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu_Auto1F4A5BBE34D41DCD0FC229EA36085A03D.tmp' to '../../../Templates/BZS_Template/Saved/Autosaves/Game/UMD/PauseMenu_Auto1.uasset'
+[2015.01.16-05.55.13:910][846]LogFileHelpers: Auto-saving content packages took 0.240
+[2015.01.16-05.57.46:532][608]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-05.57.46:725][608]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.57.46:726][608]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.57.46:755][608]BlueprintEditorCompileResults: Info [1086.22] Compile of PauseMenu successful! [in 211 ms]
+[2015.01.16-05.57.47:148][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.57.47:230][616]LogSavePackage: Save=31.069218ms
+[2015.01.16-05.57.47:230][616]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu06F3994C4CA76CBD4987B4976DE4781C.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.58.20:257][802]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-05.58.20:430][802]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.20:431][802]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.20:486][802]BlueprintEditorCompileResults: Info [1119.95] Compile of PauseMenu successful! [in 217 ms]
+[2015.01.16-05.58.20:875][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-05.58.20:957][809]LogSavePackage: Save=30.812567ms
+[2015.01.16-05.58.20:958][809]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu664F1D754F29A38EFBDC1D913C69669A.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-05.58.23:520][910]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-05.58.23:548][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.23:551][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.23:580][910]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-05.58.23:690][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.23:691][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.23:839][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.23:840][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.23:958][910]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-05.58.24:076][910]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-05.58.24:231][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.24:232][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.24:289][910]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-05.58.24:434][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.24:435][910]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-05.58.24:497][910]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-05.58.24:654][910]LogPlayLevel: PIE:  Blueprint regeneration took 1134 ms (5 blueprints)
+[2015.01.16-05.58.24:654][910]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 1:58:24 PM)
+[2015.01.16-05.58.24:656][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001856s)
+[2015.01.16-05.58.24:657][910]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2015.01.16-05.58.24:657][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002971s)
+[2015.01.16-05.58.24:699][910]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.58.24:701][910]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.58.24:703][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.58.24
+[2015.01.16-05.58.24:704][910]LogWorld: Bringing up level for play took: 0.002282
+[2015.01.16-05.58.24:708][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.494
+[2015.01.16-05.58.27:156][ 23]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Main_Menu.umap
+[2015.01.16-05.58.27:237][ 23]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve Main_Menu.umap
+[2015.01.16-05.58.27:237][ 23]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-05.58.27:237][ 23]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-05.58.27:258][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C07AA6B560
+[2015.01.16-05.58.27:259][ 23]Cmd: MEM
+[2015.01.16-05.58.27:285][ 23]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.58.27:285][ 23]LogMemory: Process Physical Memory: 796.46 MB used, 796.46 MB peak
+[2015.01.16-05.58.27:285][ 23]LogMemory: Process Virtual Memory: 698.21 MB used, 698.21 MB peak
+[2015.01.16-05.58.27:285][ 23]LogMemory: Physical Memory: 4973.44 MB used, 8153.19 MB total
+[2015.01.16-05.58.27:285][ 23]LogMemory: Virtual Memory: 1243.52 MB used, 134217728.00 MB total
+[2015.01.16-05.58.27:285][ 23]LogMemory: 
+[2015.01.16-05.58.27:285][ 23]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.58.27:287][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001764s)
+[2015.01.16-05.58.27:288][ 23]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2015.01.16-05.58.27:288][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002542s)
+[2015.01.16-05.58.27:288][ 23]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.58.27:290][ 23]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.58.27:290][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.58.27
+[2015.01.16-05.58.27:291][ 23]LogWorld: Bringing up level for play took: 0.000618
+[2015.01.16-05.58.27:291][ 23]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-05.58.28:291][ 72]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve Example_Map.umap
+[2015.01.16-05.58.28:378][ 72]LogPackageName: SearchForPackageOnDisk took   0.086s to resolve Example_Map.umap
+[2015.01.16-05.58.28:378][ 72]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-05.58.28:379][ 72]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-05.58.28:397][ 72]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C07AA6BCE0
+[2015.01.16-05.58.28:401][ 72]Cmd: MEM
+[2015.01.16-05.58.28:424][ 72]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.58.28:424][ 72]LogMemory: Process Physical Memory: 796.49 MB used, 796.50 MB peak
+[2015.01.16-05.58.28:424][ 72]LogMemory: Process Virtual Memory: 697.15 MB used, 698.21 MB peak
+[2015.01.16-05.58.28:424][ 72]LogMemory: Physical Memory: 4970.55 MB used, 8153.19 MB total
+[2015.01.16-05.58.28:424][ 72]LogMemory: Virtual Memory: 1242.46 MB used, 134217728.00 MB total
+[2015.01.16-05.58.28:424][ 72]LogMemory: 
+[2015.01.16-05.58.28:424][ 72]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.58.28:683][ 72]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-05.58.28:740][ 72]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.58.28:742][ 72]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-05.58.28:744][ 72]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-21.58.28
+[2015.01.16-05.58.28:744][ 72]LogWorld: Bringing up level for play took: 0.002088
+[2015.01.16-05.58.32:049][221]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve Main_Menu.umap
+[2015.01.16-05.58.32:126][221]LogPackageName: SearchForPackageOnDisk took   0.075s to resolve Main_Menu.umap
+[2015.01.16-05.58.32:126][221]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-05.58.32:126][221]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-05.58.32:192][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C071ADCB80
+[2015.01.16-05.58.32:192][221]Cmd: MEM
+[2015.01.16-05.58.32:217][221]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-05.58.32:217][221]LogMemory: Process Physical Memory: 813.42 MB used, 855.12 MB peak
+[2015.01.16-05.58.32:218][221]LogMemory: Process Virtual Memory: 712.71 MB used, 757.63 MB peak
+[2015.01.16-05.58.32:218][221]LogMemory: Physical Memory: 4991.35 MB used, 8153.19 MB total
+[2015.01.16-05.58.32:218][221]LogMemory: Virtual Memory: 1252.20 MB used, 134217728.00 MB total
+[2015.01.16-05.58.32:218][221]LogMemory: 
+[2015.01.16-05.58.32:218][221]Allocator Stats for TBB: (not implemented)
+[2015.01.16-05.58.32:219][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001698s)
+[2015.01.16-05.58.32:220][221]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2015.01.16-05.58.32:220][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002527s)
+[2015.01.16-05.58.32:221][221]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-05.58.32:223][221]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-05.58.32:223][221]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-21.58.32
+[2015.01.16-05.58.32:224][221]LogWorld: Bringing up level for play took: 0.000621
+[2015.01.16-05.58.32:224][221]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-05.58.35:025][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C07890A5C0
+[2015.01.16-06.00.10:049][632]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-06.00.10:217][632]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.10:218][632]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.10:250][632]BlueprintEditorCompileResults: Info [1229.71] Compile of PauseMenu successful! [in 190 ms]
+[2015.01.16-06.00.10:739][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-06.00.10:805][642]LogSavePackage: Save=31.566574ms
+[2015.01.16-06.00.10:805][642]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenuADBD453D4DF55F8C4C55C8BE5DE4861A.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-06.00.13:142][759]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-06.00.13:165][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:166][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:191][759]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-06.00.13:269][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:270][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:375][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:377][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:491][759]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-06.00.13:586][759]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-06.00.13:717][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:720][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:771][759]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-06.00.13:892][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:893][759]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.00.13:938][759]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-06.00.14:093][759]LogPlayLevel: PIE:  Blueprint regeneration took 951 ms (5 blueprints)
+[2015.01.16-06.00.14:093][759]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 2:00:14 PM)
+[2015.01.16-06.00.14:095][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001684s)
+[2015.01.16-06.00.14:096][759]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2015.01.16-06.00.14:096][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002689s)
+[2015.01.16-06.00.14:142][759]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.00.14:144][759]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.00.14:145][759]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.00.14
+[2015.01.16-06.00.14:146][759]LogWorld: Bringing up level for play took: 0.001611
+[2015.01.16-06.00.14:152][759]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.937
+[2015.01.16-06.00.15:075][815]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Example_Map.umap
+[2015.01.16-06.00.15:154][815]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Example_Map.umap
+[2015.01.16-06.00.15:154][815]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.00.15:154][815]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.00.15:192][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C003503A60
+[2015.01.16-06.00.15:192][815]Cmd: MEM
+[2015.01.16-06.00.15:218][815]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.00.15:218][815]LogMemory: Process Physical Memory: 842.17 MB used, 855.12 MB peak
+[2015.01.16-06.00.15:218][815]LogMemory: Process Virtual Memory: 744.98 MB used, 757.63 MB peak
+[2015.01.16-06.00.15:218][815]LogMemory: Physical Memory: 5062.48 MB used, 8153.19 MB total
+[2015.01.16-06.00.15:218][815]LogMemory: Virtual Memory: 1286.69 MB used, 134217728.00 MB total
+[2015.01.16-06.00.15:218][815]LogMemory: 
+[2015.01.16-06.00.15:218][815]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.00.15:458][815]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.00.15:500][815]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.00.15:501][815]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.00.15:503][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.00.15
+[2015.01.16-06.00.15:503][815]LogWorld: Bringing up level for play took: 0.001938
+[2015.01.16-06.00.21:539][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C079B48C20
+[2015.01.16-06.01.25:944][470]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-06.01.26:192][470]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.26:194][470]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.26:226][470]BlueprintEditorCompileResults: Info [1305.69] Compile of PauseMenu successful! [in 269 ms]
+[2015.01.16-06.01.26:682][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-06.01.26:766][478]LogSavePackage: Save=29.443562ms
+[2015.01.16-06.01.26:766][478]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenuB333DA5F44A67EF657D0AEA135DA8BA4.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-06.01.28:929][560]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-06.01.28:962][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.28:963][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.29:015][560]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-06.01.29:124][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.29:125][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.29:266][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.29:268][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.29:417][560]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-06.01.29:544][560]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-06.01.29:681][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.29:684][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.29:834][560]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-06.01.30:011][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.30:012][560]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.01.30:079][560]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-06.01.30:278][560]LogPlayLevel: PIE:  Blueprint regeneration took 1349 ms (5 blueprints)
+[2015.01.16-06.01.30:279][560]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 2:01:30 PM)
+[2015.01.16-06.01.30:281][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001668s)
+[2015.01.16-06.01.30:282][560]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2015.01.16-06.01.30:282][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002582s)
+[2015.01.16-06.01.30:315][560]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.01.30:317][560]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.01.30:318][560]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.01.30
+[2015.01.16-06.01.30:319][560]LogWorld: Bringing up level for play took: 0.001154
+[2015.01.16-06.01.30:323][560]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.108
+[2015.01.16-06.01.31:460][604]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Example_Map.umap
+[2015.01.16-06.01.31:576][604]LogPackageName: SearchForPackageOnDisk took   0.111s to resolve Example_Map.umap
+[2015.01.16-06.01.31:576][604]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.01.31:576][604]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.01.31:629][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C079B4A7A0
+[2015.01.16-06.01.31:629][604]Cmd: MEM
+[2015.01.16-06.01.31:681][604]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.01.31:681][604]LogMemory: Process Physical Memory: 882.34 MB used, 897.08 MB peak
+[2015.01.16-06.01.31:681][604]LogMemory: Process Virtual Memory: 786.36 MB used, 801.59 MB peak
+[2015.01.16-06.01.31:681][604]LogMemory: Physical Memory: 4960.36 MB used, 8153.19 MB total
+[2015.01.16-06.01.31:681][604]LogMemory: Virtual Memory: 1322.46 MB used, 134217728.00 MB total
+[2015.01.16-06.01.31:681][604]LogMemory: 
+[2015.01.16-06.01.31:681][604]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.01.31:967][604]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.01.32:042][604]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.01.32:044][604]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.01.32:047][604]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.01.32
+[2015.01.16-06.01.32:047][604]LogWorld: Bringing up level for play took: 0.003049
+[2015.01.16-06.01.46:817][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00551C220
+[2015.01.16-06.03.28:359][465]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-06.03.28:553][465]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.28:554][465]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.28:590][465]BlueprintEditorCompileResults: Info [1428.05] Compile of PauseMenu successful! [in 219 ms]
+[2015.01.16-06.03.28:902][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-06.03.28:972][473]LogSavePackage: Save=28.425081ms
+[2015.01.16-06.03.28:972][473]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu2B1F2DAE41F348C9804172BD96BBDBB8.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-06.03.50:196][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-06.03.50:289][117]LogSavePackage: Save=50.242825ms
+[2015.01.16-06.03.50:289][117]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu001845FB45F3087AB15122852A5CE61E.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-06.03.50:936][136]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-06.03.51:087][136]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.51:088][136]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.51:125][136]BlueprintEditorCompileResults: Info [1450.59] Compile of PauseMenu successful! [in 179 ms]
+[2015.01.16-06.03.56:434][322]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-06.03.56:479][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.56:480][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.56:510][322]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-06.03.56:626][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.56:630][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.56:784][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.56:785][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.56:896][322]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-06.03.57:011][322]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-06.03.57:119][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.57:120][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.57:188][322]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-06.03.57:343][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.57:344][322]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.03.57:388][322]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-06.03.57:550][322]LogPlayLevel: PIE:  Blueprint regeneration took 1115 ms (5 blueprints)
+[2015.01.16-06.03.57:550][322]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 2:03:57 PM)
+[2015.01.16-06.03.57:553][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002102s)
+[2015.01.16-06.03.57:554][322]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2015.01.16-06.03.57:554][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.003782s)
+[2015.01.16-06.03.57:598][322]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.03.57:600][322]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.03.57:601][322]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.03.57
+[2015.01.16-06.03.57:601][322]LogWorld: Bringing up level for play took: 0.001030
+[2015.01.16-06.03.57:608][322]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.394
+[2015.01.16-06.03.59:405][402]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Main_Menu.umap
+[2015.01.16-06.03.59:499][402]LogPackageName: SearchForPackageOnDisk took   0.092s to resolve Main_Menu.umap
+[2015.01.16-06.03.59:499][402]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.03.59:499][402]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.03.59:538][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0084FBB00
+[2015.01.16-06.03.59:538][402]Cmd: MEM
+[2015.01.16-06.03.59:580][402]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.03.59:580][402]LogMemory: Process Physical Memory: 895.04 MB used, 935.17 MB peak
+[2015.01.16-06.03.59:580][402]LogMemory: Process Virtual Memory: 796.68 MB used, 837.72 MB peak
+[2015.01.16-06.03.59:580][402]LogMemory: Physical Memory: 4877.06 MB used, 8153.19 MB total
+[2015.01.16-06.03.59:580][402]LogMemory: Virtual Memory: 1332.63 MB used, 134217728.00 MB total
+[2015.01.16-06.03.59:580][402]LogMemory: 
+[2015.01.16-06.03.59:580][402]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.03.59:582][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001726s)
+[2015.01.16-06.03.59:583][402]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2015.01.16-06.03.59:583][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.003103s)
+[2015.01.16-06.03.59:584][402]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.03.59:586][402]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.03.59:586][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.03.59
+[2015.01.16-06.03.59:587][402]LogWorld: Bringing up level for play took: 0.000709
+[2015.01.16-06.03.59:587][402]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.04.00:471][436]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve Example_Map.umap
+[2015.01.16-06.04.00:553][436]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve Example_Map.umap
+[2015.01.16-06.04.00:553][436]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.04.00:553][436]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.04.00:578][436]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C078940220
+[2015.01.16-06.04.00:583][436]Cmd: MEM
+[2015.01.16-06.04.00:606][436]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.04.00:606][436]LogMemory: Process Physical Memory: 895.04 MB used, 935.17 MB peak
+[2015.01.16-06.04.00:606][436]LogMemory: Process Virtual Memory: 796.68 MB used, 837.72 MB peak
+[2015.01.16-06.04.00:606][436]LogMemory: Physical Memory: 4911.22 MB used, 8153.19 MB total
+[2015.01.16-06.04.00:606][436]LogMemory: Virtual Memory: 1332.63 MB used, 134217728.00 MB total
+[2015.01.16-06.04.00:606][436]LogMemory: 
+[2015.01.16-06.04.00:606][436]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.04.00:908][436]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.04.01:006][436]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.04.01:008][436]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.04.01:011][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.04.01
+[2015.01.16-06.04.01:011][436]LogWorld: Bringing up level for play took: 0.002901
+[2015.01.16-06.04.06:559][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0787F0FE0
+[2015.01.16-06.04.31:054][638]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-06.04.31:198][638]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.31:199][638]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.31:228][638]BlueprintEditorCompileResults: Info [1490.69] Compile of PauseMenu successful! [in 164 ms]
+[2015.01.16-06.04.31:710][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-06.04.31:789][650]LogSavePackage: Save=22.884066ms
+[2015.01.16-06.04.31:789][650]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu0B7021F341F61AF321290DAAC98B545D.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-06.04.54:577][513]BlueprintLog: New page: Compile MainMenu
+[2015.01.16-06.04.54:780][513]BlueprintEditorCompileResults: Info [1514.24] Compile of MainMenu successful! [in 193 ms]
+[2015.01.16-06.04.55:012][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/MainMenu" FILE="../../../Templates/BZS_Template/Content/UMD/MainMenu.uasset" SILENT=true
+[2015.01.16-06.04.55:125][517]LogSavePackage: Save=42.550816ms
+[2015.01.16-06.04.55:125][517]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/MainMenuB357347C4B943ACCCA84EDB3CD6F3544.tmp' to '../../../Templates/BZS_Template/Content/UMD/MainMenu.uasset'
+[2015.01.16-06.04.57:090][596]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-06.04.57:117][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:118][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:147][596]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-06.04.57:236][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:237][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:380][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:381][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:481][596]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-06.04.57:586][596]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-06.04.57:720][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:721][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:802][596]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-06.04.57:933][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.57:936][596]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.04.58:004][596]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-06.04.58:165][596]LogPlayLevel: PIE:  Blueprint regeneration took 1075 ms (5 blueprints)
+[2015.01.16-06.04.58:165][596]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 2:04:58 PM)
+[2015.01.16-06.04.58:168][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002025s)
+[2015.01.16-06.04.58:169][596]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2015.01.16-06.04.58:169][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.003351s)
+[2015.01.16-06.04.58:208][596]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.04.58:209][596]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.04.58:210][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.04.58
+[2015.01.16-06.04.58:210][596]LogWorld: Bringing up level for play took: 0.000708
+[2015.01.16-06.04.58:215][596]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.001
+[2015.01.16-06.04.59:370][650]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve Main_Menu.umap
+[2015.01.16-06.04.59:469][650]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve Main_Menu.umap
+[2015.01.16-06.04.59:469][650]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.04.59:469][650]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.04.59:512][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C007B927A0
+[2015.01.16-06.04.59:512][650]Cmd: MEM
+[2015.01.16-06.04.59:545][650]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.04.59:545][650]LogMemory: Process Physical Memory: 913.50 MB used, 943.81 MB peak
+[2015.01.16-06.04.59:545][650]LogMemory: Process Virtual Memory: 819.39 MB used, 847.71 MB peak
+[2015.01.16-06.04.59:545][650]LogMemory: Physical Memory: 4869.16 MB used, 8153.19 MB total
+[2015.01.16-06.04.59:545][650]LogMemory: Virtual Memory: 1355.25 MB used, 134217728.00 MB total
+[2015.01.16-06.04.59:545][650]LogMemory: 
+[2015.01.16-06.04.59:545][650]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.04.59:547][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001627s)
+[2015.01.16-06.04.59:547][650]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2015.01.16-06.04.59:547][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002495s)
+[2015.01.16-06.04.59:548][650]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.04.59:550][650]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.04.59:550][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.04.59
+[2015.01.16-06.04.59:551][650]LogWorld: Bringing up level for play took: 0.000954
+[2015.01.16-06.04.59:551][650]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.05.00:282][679]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve Example_Map.umap
+[2015.01.16-06.05.00:392][679]LogPackageName: SearchForPackageOnDisk took   0.107s to resolve Example_Map.umap
+[2015.01.16-06.05.00:392][679]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.05.00:392][679]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.05.00:414][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C079B494E0
+[2015.01.16-06.05.00:418][679]Cmd: MEM
+[2015.01.16-06.05.00:444][679]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.05.00:444][679]LogMemory: Process Physical Memory: 916.61 MB used, 943.81 MB peak
+[2015.01.16-06.05.00:444][679]LogMemory: Process Virtual Memory: 819.39 MB used, 847.71 MB peak
+[2015.01.16-06.05.00:444][679]LogMemory: Physical Memory: 4920.46 MB used, 8153.19 MB total
+[2015.01.16-06.05.00:444][679]LogMemory: Virtual Memory: 1355.25 MB used, 134217728.00 MB total
+[2015.01.16-06.05.00:444][679]LogMemory: 
+[2015.01.16-06.05.00:444][679]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.05.00:813][679]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.05.00:886][679]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.05.00:888][679]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.05.00:890][679]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.05.00
+[2015.01.16-06.05.00:891][679]LogWorld: Bringing up level for play took: 0.002795
+[2015.01.16-06.05.09:244][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00738C540
+[2015.01.16-06.05.49:707][447]BlueprintLog: New page: Compile PauseMenu
+[2015.01.16-06.05.49:865][447]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.49:866][447]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.49:890][447]BlueprintEditorCompileResults: Info [1569.35] Compile of PauseMenu successful! [in 174 ms]
+[2015.01.16-06.05.50:866][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/PauseMenu" FILE="../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset" SILENT=true
+[2015.01.16-06.05.50:929][479]LogSavePackage: Save=27.107826ms
+[2015.01.16-06.05.50:929][479]LogSavePackage: Moving '../../../Templates/BZS_Template/Saved/PauseMenu7F349A2E44A7A247044D8A84F84AEBBF.tmp' to '../../../Templates/BZS_Template/Content/UMD/PauseMenu.uasset'
+[2015.01.16-06.05.53:220][577]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-06.05.53:248][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:249][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:297][577]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-06.05.53:389][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:390][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:529][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:537][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:651][577]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-06.05.53:737][577]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-06.05.53:891][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:893][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.53:949][577]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-06.05.54:092][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.54:093][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.05.54:149][577]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-06.05.54:315][577]LogPlayLevel: PIE:  Blueprint regeneration took 1095 ms (5 blueprints)
+[2015.01.16-06.05.54:315][577]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 2:05:54 PM)
+[2015.01.16-06.05.54:318][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002297s)
+[2015.01.16-06.05.54:319][577]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2015.01.16-06.05.54:319][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.003606s)
+[2015.01.16-06.05.54:357][577]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.05.54:358][577]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.05.54:359][577]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.05.54
+[2015.01.16-06.05.54:359][577]LogWorld: Bringing up level for play took: 0.000559
+[2015.01.16-06.05.54:361][577]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.147
+[2015.01.16-06.05.56:414][677]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Main_Menu.umap
+[2015.01.16-06.05.56:498][677]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve Main_Menu.umap
+[2015.01.16-06.05.56:498][677]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.05.56:498][677]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.05.56:558][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0010C19E0
+[2015.01.16-06.05.56:559][677]Cmd: MEM
+[2015.01.16-06.05.56:585][677]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.05.56:585][677]LogMemory: Process Physical Memory: 942.07 MB used, 973.01 MB peak
+[2015.01.16-06.05.56:585][677]LogMemory: Process Virtual Memory: 845.13 MB used, 875.56 MB peak
+[2015.01.16-06.05.56:585][677]LogMemory: Physical Memory: 5015.46 MB used, 8153.19 MB total
+[2015.01.16-06.05.56:585][677]LogMemory: Virtual Memory: 1388.00 MB used, 134217728.00 MB total
+[2015.01.16-06.05.56:585][677]LogMemory: 
+[2015.01.16-06.05.56:585][677]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.05.56:587][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001677s)
+[2015.01.16-06.05.56:588][677]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2015.01.16-06.05.56:588][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002603s)
+[2015.01.16-06.05.56:589][677]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.05.56:591][677]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.05.56:591][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.05.56
+[2015.01.16-06.05.56:592][677]LogWorld: Bringing up level for play took: 0.000716
+[2015.01.16-06.05.56:592][677]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.05.57:421][713]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve Example_Map.umap
+[2015.01.16-06.05.57:529][713]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Example_Map.umap
+[2015.01.16-06.05.57:529][713]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.05.57:529][713]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.05.57:551][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0090E6C00
+[2015.01.16-06.05.57:555][713]Cmd: MEM
+[2015.01.16-06.05.57:581][713]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.05.57:581][713]LogMemory: Process Physical Memory: 942.09 MB used, 973.01 MB peak
+[2015.01.16-06.05.57:581][713]LogMemory: Process Virtual Memory: 845.00 MB used, 875.56 MB peak
+[2015.01.16-06.05.57:581][713]LogMemory: Physical Memory: 4890.19 MB used, 8153.19 MB total
+[2015.01.16-06.05.57:581][713]LogMemory: Virtual Memory: 1388.00 MB used, 134217728.00 MB total
+[2015.01.16-06.05.57:581][713]LogMemory: 
+[2015.01.16-06.05.57:581][713]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.05.57:933][713]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.05.58:020][713]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.05.58:023][713]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.05.58:026][713]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.05.58
+[2015.01.16-06.05.58:027][713]LogWorld: Bringing up level for play took: 0.003198
+[2015.01.16-06.06.01:020][845]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Main_Menu.umap
+[2015.01.16-06.06.01:116][845]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve Main_Menu.umap
+[2015.01.16-06.06.01:116][845]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.06.01:116][845]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.06.01:161][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00A59D260
+[2015.01.16-06.06.01:161][845]Cmd: MEM
+[2015.01.16-06.06.01:186][845]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.06.01:186][845]LogMemory: Process Physical Memory: 947.93 MB used, 993.59 MB peak
+[2015.01.16-06.06.01:186][845]LogMemory: Process Virtual Memory: 850.60 MB used, 899.21 MB peak
+[2015.01.16-06.06.01:186][845]LogMemory: Physical Memory: 4928.41 MB used, 8153.19 MB total
+[2015.01.16-06.06.01:186][845]LogMemory: Virtual Memory: 1397.88 MB used, 134217728.00 MB total
+[2015.01.16-06.06.01:186][845]LogMemory: 
+[2015.01.16-06.06.01:186][845]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.06.01:188][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001622s)
+[2015.01.16-06.06.01:189][845]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2015.01.16-06.06.01:189][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002492s)
+[2015.01.16-06.06.01:189][845]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.06.01:191][845]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.06.01:192][845]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.06.01
+[2015.01.16-06.06.01:192][845]LogWorld: Bringing up level for play took: 0.000766
+[2015.01.16-06.06.01:192][845]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.06.02:114][886]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve Example_Map.umap
+[2015.01.16-06.06.02:190][886]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve Example_Map.umap
+[2015.01.16-06.06.02:190][886]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.06.02:190][886]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.06.02:211][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C007026A20
+[2015.01.16-06.06.02:222][886]Cmd: MEM
+[2015.01.16-06.06.02:244][886]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.06.02:244][886]LogMemory: Process Physical Memory: 943.93 MB used, 993.59 MB peak
+[2015.01.16-06.06.02:244][886]LogMemory: Process Virtual Memory: 846.59 MB used, 899.21 MB peak
+[2015.01.16-06.06.02:244][886]LogMemory: Physical Memory: 4962.69 MB used, 8153.19 MB total
+[2015.01.16-06.06.02:244][886]LogMemory: Virtual Memory: 1393.88 MB used, 134217728.00 MB total
+[2015.01.16-06.06.02:244][886]LogMemory: 
+[2015.01.16-06.06.02:244][886]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.06.02:432][886]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.06.02:504][886]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.06.02:506][886]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.06.02:509][886]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.06.02
+[2015.01.16-06.06.02:510][886]LogWorld: Bringing up level for play took: 0.002860
+[2015.01.16-06.06.10:387][278]LogPackageName: SearchForPackageOnDisk took   0.107s to resolve Main_Menu.umap
+[2015.01.16-06.06.10:502][278]LogPackageName: SearchForPackageOnDisk took   0.113s to resolve Main_Menu.umap
+[2015.01.16-06.06.10:502][278]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.06.10:503][278]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.06.10:556][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C008926C00
+[2015.01.16-06.06.10:556][278]Cmd: MEM
+[2015.01.16-06.06.10:595][278]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.06.10:596][278]LogMemory: Process Physical Memory: 948.01 MB used, 1001.38 MB peak
+[2015.01.16-06.06.10:596][278]LogMemory: Process Virtual Memory: 850.68 MB used, 905.14 MB peak
+[2015.01.16-06.06.10:596][278]LogMemory: Physical Memory: 4956.29 MB used, 8153.19 MB total
+[2015.01.16-06.06.10:596][278]LogMemory: Virtual Memory: 1397.88 MB used, 134217728.00 MB total
+[2015.01.16-06.06.10:596][278]LogMemory: 
+[2015.01.16-06.06.10:596][278]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.06.10:598][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002642s)
+[2015.01.16-06.06.10:599][278]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2015.01.16-06.06.10:599][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.003664s)
+[2015.01.16-06.06.10:600][278]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.06.10:602][278]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.06.10:604][278]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.06.10
+[2015.01.16-06.06.10:605][278]LogWorld: Bringing up level for play took: 0.002285
+[2015.01.16-06.06.10:605][278]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.06.17:561][598]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C007B34FE0
+[2015.01.16-06.07.01:465][129]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Menu' took 0.058
+[2015.01.16-06.09.17:902][652]BlueprintLog: New page: Compile OptionsMenu
+[2015.01.16-06.09.18:061][652]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.18:063][652]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.18:094][652]BlueprintEditorCompileResults: Info [1777.56] Compile of OptionsMenu successful! [in 186 ms]
+[2015.01.16-06.09.21:507][811]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.16-06.09.21:545][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.21:546][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.21:577][811]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.16-06.09.21:691][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.21:692][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.21:867][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.21:868][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.21:985][811]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.16-06.09.22:100][811]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.16-06.09.22:257][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.22:258][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.22:331][811]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.16-06.09.22:482][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.22:483][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.16-06.09.22:539][811]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.16-06.09.22:747][811]LogPlayLevel: PIE:  Blueprint regeneration took 1240 ms (5 blueprints)
+[2015.01.16-06.09.22:748][811]PIE: New page: PIE session: Main_Menu (Jan 15, 2015, 2:09:22 PM)
+[2015.01.16-06.09.22:758][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009537s)
+[2015.01.16-06.09.22:759][811]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2015.01.16-06.09.22:759][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.011285s)
+[2015.01.16-06.09.22:816][811]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.09.22:818][811]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.09.22:819][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.09.22
+[2015.01.16-06.09.22:819][811]LogWorld: Bringing up level for play took: 0.000895
+[2015.01.16-06.09.22:823][811]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.608
+[2015.01.16-06.09.23:799][857]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve Example_Map.umap
+[2015.01.16-06.09.23:869][857]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve Example_Map.umap
+[2015.01.16-06.09.23:869][857]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.09.23:870][857]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.09.23:891][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0083E3100
+[2015.01.16-06.09.23:891][857]Cmd: MEM
+[2015.01.16-06.09.23:911][857]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.09.23:911][857]LogMemory: Process Physical Memory: 978.42 MB used, 1001.38 MB peak
+[2015.01.16-06.09.23:911][857]LogMemory: Process Virtual Memory: 885.63 MB used, 905.14 MB peak
+[2015.01.16-06.09.23:911][857]LogMemory: Physical Memory: 5088.05 MB used, 8153.19 MB total
+[2015.01.16-06.09.23:911][857]LogMemory: Virtual Memory: 1421.69 MB used, 134217728.00 MB total
+[2015.01.16-06.09.23:911][857]LogMemory: 
+[2015.01.16-06.09.23:911][857]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.09.24:165][857]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.09.24:235][857]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.09.24:237][857]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.09.24:239][857]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.09.24
+[2015.01.16-06.09.24:240][857]LogWorld: Bringing up level for play took: 0.002863
+[2015.01.16-06.09.29:651][115]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Main_Menu.umap
+[2015.01.16-06.09.29:735][115]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve Main_Menu.umap
+[2015.01.16-06.09.29:735][115]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.09.29:735][115]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.09.29:784][115]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00BEFDF80
+[2015.01.16-06.09.29:784][115]Cmd: MEM
+[2015.01.16-06.09.29:821][115]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.09.29:821][115]LogMemory: Process Physical Memory: 983.61 MB used, 1027.39 MB peak
+[2015.01.16-06.09.29:821][115]LogMemory: Process Virtual Memory: 888.12 MB used, 936.08 MB peak
+[2015.01.16-06.09.29:821][115]LogMemory: Physical Memory: 5141.89 MB used, 8153.19 MB total
+[2015.01.16-06.09.29:821][115]LogMemory: Virtual Memory: 1424.38 MB used, 134217728.00 MB total
+[2015.01.16-06.09.29:821][115]LogMemory: 
+[2015.01.16-06.09.29:821][115]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.09.29:823][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002050s)
+[2015.01.16-06.09.29:824][115]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2015.01.16-06.09.29:825][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.003287s)
+[2015.01.16-06.09.29:826][115]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.09.29:827][115]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.09.29:828][115]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.09.29
+[2015.01.16-06.09.29:828][115]LogWorld: Bringing up level for play took: 0.000899
+[2015.01.16-06.09.29:829][115]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.09.32:713][248]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve Main_Menu.umap
+[2015.01.16-06.09.32:810][248]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve Main_Menu.umap
+[2015.01.16-06.09.32:810][248]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.09.32:810][248]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.09.32:833][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00AC47D80
+[2015.01.16-06.09.32:838][248]Cmd: MEM
+[2015.01.16-06.09.32:866][248]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.09.32:866][248]LogMemory: Process Physical Memory: 979.48 MB used, 1027.39 MB peak
+[2015.01.16-06.09.32:866][248]LogMemory: Process Virtual Memory: 883.98 MB used, 936.08 MB peak
+[2015.01.16-06.09.32:866][248]LogMemory: Physical Memory: 5137.01 MB used, 8153.19 MB total
+[2015.01.16-06.09.32:866][248]LogMemory: Virtual Memory: 1420.38 MB used, 134217728.00 MB total
+[2015.01.16-06.09.32:866][248]LogMemory: 
+[2015.01.16-06.09.32:866][248]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.09.32:869][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002524s)
+[2015.01.16-06.09.32:870][248]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2015.01.16-06.09.32:871][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.004045s)
+[2015.01.16-06.09.32:872][248]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.09.32:873][248]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.09.32:874][248]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.09.32
+[2015.01.16-06.09.32:875][248]LogWorld: Bringing up level for play took: 0.000939
+[2015.01.16-06.09.32:875][248]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.09.40:461][741]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Example_Map.umap
+[2015.01.16-06.09.40:554][741]LogPackageName: SearchForPackageOnDisk took   0.092s to resolve Example_Map.umap
+[2015.01.16-06.09.40:554][741]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.09.40:554][741]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.09.40:585][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00AC44FE0
+[2015.01.16-06.09.40:589][741]Cmd: MEM
+[2015.01.16-06.09.40:611][741]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.09.40:611][741]LogMemory: Process Physical Memory: 979.35 MB used, 1027.39 MB peak
+[2015.01.16-06.09.40:611][741]LogMemory: Process Virtual Memory: 883.81 MB used, 936.08 MB peak
+[2015.01.16-06.09.40:611][741]LogMemory: Physical Memory: 5133.14 MB used, 8153.19 MB total
+[2015.01.16-06.09.40:611][741]LogMemory: Virtual Memory: 1410.74 MB used, 134217728.00 MB total
+[2015.01.16-06.09.40:611][741]LogMemory: 
+[2015.01.16-06.09.40:611][741]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.09.40:787][741]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.09.40:846][741]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.09.40:847][741]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.09.40:849][741]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.09.40
+[2015.01.16-06.09.40:849][741]LogWorld: Bringing up level for play took: 0.002187
+[2015.01.16-06.09.42:878][845]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve Main_Menu.umap
+[2015.01.16-06.09.42:957][845]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve Main_Menu.umap
+[2015.01.16-06.09.42:957][845]LogNet: Browse: /Game/Maps/Main_Menu
+[2015.01.16-06.09.42:957][845]LogLoad: LoadMap: /Game/Maps/Main_Menu
+[2015.01.16-06.09.42:998][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00A638E00
+[2015.01.16-06.09.42:998][845]Cmd: MEM
+[2015.01.16-06.09.43:030][845]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.09.43:030][845]LogMemory: Process Physical Memory: 983.71 MB used, 1033.50 MB peak
+[2015.01.16-06.09.43:030][845]LogMemory: Process Virtual Memory: 888.13 MB used, 938.42 MB peak
+[2015.01.16-06.09.43:030][845]LogMemory: Physical Memory: 5124.59 MB used, 8153.19 MB total
+[2015.01.16-06.09.43:030][845]LogMemory: Virtual Memory: 1414.74 MB used, 134217728.00 MB total
+[2015.01.16-06.09.43:030][845]LogMemory: 
+[2015.01.16-06.09.43:030][845]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.09.43:032][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001497s)
+[2015.01.16-06.09.43:032][845]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2015.01.16-06.09.43:032][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002214s)
+[2015.01.16-06.09.43:033][845]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.09.43:034][845]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.16-06.09.43:035][845]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.15-22.09.43
+[2015.01.16-06.09.43:035][845]LogWorld: Bringing up level for play took: 0.000658
+[2015.01.16-06.09.43:036][845]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.01.16-06.09.49:361][275]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Example_Map.umap
+[2015.01.16-06.09.49:440][275]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Example_Map.umap
+[2015.01.16-06.09.49:440][275]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.16-06.09.49:440][275]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.16-06.09.49:457][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0013E8720
+[2015.01.16-06.09.49:462][275]Cmd: MEM
+[2015.01.16-06.09.49:486][275]LogMemory: Platform Memory Stats for Windows
+[2015.01.16-06.09.49:486][275]LogMemory: Process Physical Memory: 979.59 MB used, 1033.50 MB peak
+[2015.01.16-06.09.49:486][275]LogMemory: Process Virtual Memory: 884.00 MB used, 938.42 MB peak
+[2015.01.16-06.09.49:486][275]LogMemory: Physical Memory: 5119.40 MB used, 8153.19 MB total
+[2015.01.16-06.09.49:486][275]LogMemory: Virtual Memory: 1410.74 MB used, 134217728.00 MB total
+[2015.01.16-06.09.49:486][275]LogMemory: 
+[2015.01.16-06.09.49:486][275]Allocator Stats for TBB: (not implemented)
+[2015.01.16-06.09.49:656][275]LogLinker:Warning: Asset '../../../Templates/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.16-06.09.49:705][275]LogWorld: Game class is 'MyGame_C'
+[2015.01.16-06.09.49:707][275]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.16-06.09.49:710][275]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.15-22.09.49
+[2015.01.16-06.09.49:710][275]LogWorld: Bringing up level for play took: 0.002956
+[2015.01.16-06.10.00:394][795]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C00C170A40
+[2015.01.16-06.10.00:877][829]Cmd: SELECT NONE
+[2015.01.16-06.29.03:102][212]Cmd: QUIT_EDITOR
+[2015.01.16-06.29.03:859][212]LogExit: Preparing to exit.
+[2015.01.16-06.29.04:241][212]LogExit: Editor shut down
+[2015.01.16-06.29.04:241][212]LogExit: Transaction tracking system shut down
+[2015.01.16-06.29.04:242][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0591B5DA0
+[2015.01.16-06.29.04:243][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0502D42C0
+[2015.01.16-06.29.04:243][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C05FEB39C0
+[2015.01.16-06.29.04:244][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0634E44A0
+[2015.01.16-06.29.04:244][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C069C2F100
+[2015.01.16-06.29.04:244][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C05DFDBA60
+[2015.01.16-06.29.04:311][212]LogExit: Object subsystem successfully closed.
+[2015.01.16-06.29.04:366][212]LogModuleManager: Shutting down and abandoning module SequencerWidgets (173)
+[2015.01.16-06.29.04:366][212]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.01.16-06.29.04:366][212]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.01.16-06.29.04:366][212]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.01.16-06.29.04:366][212]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.01.16-06.29.04:366][212]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.16-06.29.04:366][212]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.16-06.29.04:367][212]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.16-06.29.04:369][212]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.16-06.29.04:370][212]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.16-06.29.04:370][212]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.16-06.29.04:371][212]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.16-06.29.04:371][212]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.16-06.29.04:371][212]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.16-06.29.04:371][212]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.16-06.29.04:371][212]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.16-06.29.04:371][212]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.16-06.29.04:372][212]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.16-06.29.04:469][212]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.16-06.29.04:469][212]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.16-06.29.04:470][212]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.16-06.29.04:567][212]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.16-06.29.04:567][212]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.16-06.29.04:568][212]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.16-06.29.04:569][212]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.16-06.29.04:569][212]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.16-06.29.04:569][212]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.16-06.29.04:569][212]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.16-06.29.04:570][212]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.16-06.29.04:570][212]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.16-06.29.04:570][212]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.16-06.29.04:570][212]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.16-06.29.04:571][212]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.16-06.29.04:571][212]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.16-06.29.04:572][212]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.16-06.29.04:674][212]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.16-06.29.04:674][212]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.16-06.29.04:674][212]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.16-06.29.04:676][212]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.16-06.29.04:679][212]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.16-06.29.04:679][212]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.16-06.29.04:679][212]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.16-06.29.04:679][212]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.16-06.29.04:680][212]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.16-06.29.04:680][212]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.16-06.29.04:680][212]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.16-06.29.04:680][212]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.16-06.29.04:680][212]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.16-06.29.04:680][212]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.16-06.29.04:734][212]LogDerivedDataCache: Shutdown
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.16-06.29.04:734][212]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.16-06.29.04:736][212]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.16-06.29.04:737][212]LogExit: Exiting.
+[2015.01.16-06.29.04:740][212]Log file closed, 01/15/15 22:29:04

@@ -1,0 +1,724 @@
+﻿Log file open, 01/17/15 14:53:36
+LogInit:Display: Running engine for game: BZS_Template
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.17-22.53.36:667][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.17-22.53.36:727][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.17-22.53.36:816][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.17-22.53.36:848][  0]LogInit: Object subsystem initialized
+[2015.01.17-22.53.36:865][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.17-22.53.36:865][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.17-22.53.36:865][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.17-22.53.36:865][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.17-22.53.36:874][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.17-22.53.36:876][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.17-22.53.36:876][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.17-22.53.36:924][  0]LogInit: Computer: STEVO-PC
+[2015.01.17-22.53.36:924][  0]LogInit: User: Stevo
+[2015.01.17-22.53.36:924][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.17-22.53.36:924][  0]LogInit: High frequency timer resolution =3.323579 MHz
+[2015.01.17-22.53.36:925][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.01.17-22.53.36:926][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.17-22.53.36:926][  0]LogMemory: Process Physical Memory: 48.05 MB used, 48.05 MB peak
+[2015.01.17-22.53.36:926][  0]LogMemory: Process Virtual Memory: 24.14 MB used, 24.41 MB peak
+[2015.01.17-22.53.36:926][  0]LogMemory: Physical Memory: 3512.70 MB used, 8153.19 MB total
+[2015.01.17-22.53.36:926][  0]LogMemory: Virtual Memory: 270.26 MB used, 134217728.00 MB total
+[2015.01.17-22.53.36:988][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.01.17-22.53.36:988][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.01.17-22.53.36:992][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.17-22.53.36:992][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.17-22.53.36:992][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.17-22.53.37:010][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.17-22.53.37:031][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.17-22.53.37:472][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.17-22.53.37:660][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.17-22.53.46:421][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.17-22.53.47:177][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.17-22.53.47:262][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.17-22.53.47:446][  0]LogDerivedDataCache: Loaded boot cache 0.18s 39MB C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.17-22.53.47:446][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.17-22.53.47:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.17-22.53.47:446][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.17-22.53.47:548][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.17-22.53.47:561][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stevo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.17-22.53.50:375][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.17-22.53.50:666][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.17-22.53.50:666][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.17-22.53.51:522][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.17-22.53.51:605][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.17-22.53.54:038][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.17-22.53.54:264][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Binaries/Win64. Error: 0
+[2015.01.17-22.53.54:588][  0]SourceControl: Info Source control is disabled
+[2015.01.17-22.53.54:588][  0]SourceControl: Info Source control is disabled
+[2015.01.17-22.53.54:594][  0]SourceControl: Info Source control is disabled
+[2015.01.17-22.53.54:801][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.17-22.53.54:801][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.17-22.53.54:888][  0]LogEngine: Initializing Engine...
+[2015.01.17-22.53.55:209][  0]LogInit: XAudio2 using 'Speakers (2- C-Media USB Audio Device   )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.17-22.53.55:235][  0]LogInit: FAudioDevice initialized.
+[2015.01.17-22.53.55:291][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.17-22.53.55:317][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Stevo/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.17-22.53.55:324][  0]LogInit: Texture streaming: Enabled
+[2015.01.17-22.53.55:352][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.17-22.53.55:352][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.17-22.53.55:353][  0]LogAnalytics: SetUserId 5a045227e89f0642cba4625644d0354a
+[2015.01.17-22.53.55:353][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.17-22.53.55:375][  0]LogInit: Transaction tracking system initialized
+[2015.01.17-22.53.55:570][  0]BlueprintLog: New page: Editor Load
+[2015.01.17-22.53.55:639][  0]LogAssetRegistry: FAssetRegistry took 0.0178 seconds to start up
+[2015.01.17-22.53.55:640][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.17-22.53.56:338][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.17-22.53.56:871][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.17-22.53.57:209][  0]LogConsoleResponse:Display: 
+[2015.01.17-22.53.57:567][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.17-22.53.58:279][  0]SourceControl: Info Source control is disabled
+[2015.01.17-22.53.58:281][  0]Cmd: MAP LOAD FILE="F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.17-22.53.58:298][  0]LightingResults: New page: Lighting Build
+[2015.01.17-22.53.58:312][  0]MapCheck: New page: Map Check
+[2015.01.17-22.53.58:312][  0]LightingResults: New page: Lighting Build
+[2015.01.17-22.53.58:324][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A86C6C3E20
+[2015.01.17-22.53.58:778][  0]LogLinker:Warning: Asset 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.17-22.53.59:308][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2015.01.17-22.53.59:362][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.17-22.53.59:362][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.17-22.53.59:365][  0]Cmd: MAP CHECKDEP
+[2015.01.17-22.53.59:366][  0]MapCheck: New page: Main_Menu - Jan 17, 2015, 6:53:59 AM
+[2015.01.17-22.53.59:454][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.894ms to complete.
+[2015.01.17-22.53.59:454][  0]LogFileHelpers: Loading map 'Main_Menu' took 1.174
+[2015.01.17-22.53.59:630][  0]LogCollectionManager: Loaded 0 collections in 0.001052 seconds
+[2015.01.17-22.53.59:904][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.17-22.53.59:952][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.17-22.54.00:019][  0]LogLoad: Full Startup: 26.03 seconds (BP compile: 0.34 seconds)
+[2015.01.17-22.54.00:362][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.17-22.54.00:514][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.01.17-22.54.01:045][  2]LogAssetRegistry: Asset discovery search completed in 5.4248 seconds
+[2015.01.17-22.54.13:759][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.17-22.55.37:407][608]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.17-22.55.38:489][652]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.55.38:496][652]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.55.38:587][652]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.55.38:588][652]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.56.07:415][171]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.17-22.56.08:491][250]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.17-22.57.06:760][891]BlueprintLog: New page: Compile OptionsMenu
+[2015.01.17-22.57.06:844][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.01.17-22.57.06:844][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.17-22.57.06:933][891]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.06:934][891]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.06:973][891]BlueprintEditorCompileResults: Info [0212.98] Compile of OptionsMenu successful! [in 205 ms]
+[2015.01.17-22.57.07:356][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/OptionsMenu" FILE="F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/UMD/OptionsMenu.uasset" SILENT=true
+[2015.01.17-22.57.07:399][907]LogSavePackage: Save=14.580066ms
+[2015.01.17-22.57.07:399][907]LogSavePackage: Moving 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/OptionsMenu217E8CC045204588C5C05495BABFF058.tmp' to 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/UMD/OptionsMenu.uasset'
+[2015.01.17-22.57.09:627][ 81]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-22.57.09:646][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.09:647][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.09:681][ 81]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-22.57.09:754][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.09:755][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.09:860][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.09:861][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.09:924][ 81]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.17-22.57.09:977][ 81]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.17-22.57.10:033][ 81]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-22.57.10:115][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.10:116][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.10:153][ 81]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-22.57.10:236][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.10:237][ 81]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-22.57.10:290][ 81]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-22.57.10:399][ 81]LogPlayLevel: PIE:  Blueprint regeneration took 771 ms (6 blueprints)
+[2015.01.17-22.57.10:399][ 81]PIE: New page: PIE session: Main_Menu (Jan 17, 2015, 6:57:10 AM)
+[2015.01.17-22.57.10:401][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001490s)
+[2015.01.17-22.57.10:402][ 81]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2015.01.17-22.57.10:402][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002307s)
+[2015.01.17-22.57.10:510][ 81]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.01.17-22.57.10:515][ 81]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-22.57.10:517][ 81]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.17-22.57.10:517][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.17-14.57.10
+[2015.01.17-22.57.10:518][ 81]LogWorld: Bringing up level for play took: 0.001023
+[2015.01.17-22.57.10:529][ 81]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.158
+[2015.01.17-22.57.13:467][323]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A8723813A0
+[2015.01.17-23.00.44:666][585]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.17-23.02.06:063][197]BlueprintLog: New page: Compile OptionsMenu
+[2015.01.17-23.02.06:219][197]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.06:220][197]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.06:250][197]BlueprintEditorCompileResults: Info [0512.26] Compile of OptionsMenu successful! [in 179 ms]
+[2015.01.17-23.02.06:813][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMD/OptionsMenu" FILE="F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/UMD/OptionsMenu.uasset" SILENT=true
+[2015.01.17-23.02.06:858][226]LogSavePackage: Save=17.383068ms
+[2015.01.17-23.02.06:858][226]LogSavePackage: Moving 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/OptionsMenuEB927AE146EB487EC370008F01C535FE.tmp' to 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/UMD/OptionsMenu.uasset'
+[2015.01.17-23.02.10:846][536]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.02.10:897][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.10:898][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.10:925][536]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.02.10:999][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:000][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:113][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:113][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:169][536]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.17-23.02.11:234][536]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.02.11:337][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:339][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:372][536]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.02.11:472][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:473][536]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.11:525][536]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.02.11:658][536]LogPlayLevel: PIE:  Blueprint regeneration took 812 ms (5 blueprints)
+[2015.01.17-23.02.11:659][536]PIE: New page: PIE session: Main_Menu (Jan 17, 2015, 7:02:11 AM)
+[2015.01.17-23.02.11:660][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001417s)
+[2015.01.17-23.02.11:661][536]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2015.01.17-23.02.11:661][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002274s)
+[2015.01.17-23.02.11:695][536]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.02.11:696][536]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.17-23.02.11:697][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.17-15.02.11
+[2015.01.17-23.02.11:697][536]LogWorld: Bringing up level for play took: 0.000709
+[2015.01.17-23.02.11:701][536]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.33
+[2015.01.17-23.02.20:389][324]LogScript:Warning: Accessed None 'MyCharacter'
+	OptionsMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.OptionsMenu_C_5
+	Function /Game/UMD/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu:0180
+[2015.01.17-23.02.20:389][324]LogBlueprintUserMessages: Im in the main menu!
+[2015.01.17-23.02.23:394][596]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A8001B28E0
+[2015.01.17-23.02.28:410][120]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.02.28:459][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:460][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:486][120]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.02.28:564][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:566][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:676][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:677][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:743][120]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.17-23.02.28:809][120]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.02.28:909][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:910][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.28:949][120]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.02.29:057][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.29:058][120]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.29:097][120]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.02.29:219][120]LogPlayLevel: PIE:  Blueprint regeneration took 809 ms (5 blueprints)
+[2015.01.17-23.02.29:220][120]PIE: New page: PIE session: Main_Menu (Jan 17, 2015, 7:02:29 AM)
+[2015.01.17-23.02.29:222][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001911s)
+[2015.01.17-23.02.29:222][120]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2015.01.17-23.02.29:223][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002811s)
+[2015.01.17-23.02.29:261][120]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.02.29:262][120]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.17-23.02.29:263][120]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.17-15.02.29
+[2015.01.17-23.02.29:264][120]LogWorld: Bringing up level for play took: 0.000918
+[2015.01.17-23.02.29:268][120]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.897
+[2015.01.17-23.02.30:184][192]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve Example_Map.umap
+[2015.01.17-23.02.30:255][192]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Example_Map.umap
+[2015.01.17-23.02.30:255][192]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.17-23.02.30:255][192]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.17-23.02.30:274][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A8057DF4C0
+[2015.01.17-23.02.30:274][192]Cmd: MEM
+[2015.01.17-23.02.30:302][192]LogMemory: Platform Memory Stats for Windows
+[2015.01.17-23.02.30:302][192]LogMemory: Process Physical Memory: 583.03 MB used, 583.03 MB peak
+[2015.01.17-23.02.30:302][192]LogMemory: Process Virtual Memory: 485.18 MB used, 485.18 MB peak
+[2015.01.17-23.02.30:302][192]LogMemory: Physical Memory: 3732.21 MB used, 8153.19 MB total
+[2015.01.17-23.02.30:302][192]LogMemory: Virtual Memory: 1017.49 MB used, 134217728.00 MB total
+[2015.01.17-23.02.30:302][192]LogMemory: 
+[2015.01.17-23.02.30:302][192]Allocator Stats for TBB: (not implemented)
+[2015.01.17-23.02.31:068][192]LogLinker:Warning: Asset 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.17-23.02.31:109][192]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.02.31:111][192]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.02.31:116][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.02.31
+[2015.01.17-23.02.31:117][192]LogWorld: Bringing up level for play took: 0.005299
+[2015.01.17-23.02.32:524][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A805EA0CC0
+[2015.01.17-23.02.34:724][519]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.02.34:775][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.34:776][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.34:812][519]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.02.34:890][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.34:891][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.35:005][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.35:005][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.35:063][519]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2015.01.17-23.02.35:122][519]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.02.35:219][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.35:220][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.35:257][519]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.02.35:352][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.35:353][519]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.02.35:394][519]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.02.35:494][519]LogPlayLevel: PIE:  Blueprint regeneration took 770 ms (5 blueprints)
+[2015.01.17-23.02.35:495][519]PIE: New page: PIE session: Main_Menu (Jan 17, 2015, 7:02:35 AM)
+[2015.01.17-23.02.35:497][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001582s)
+[2015.01.17-23.02.35:497][519]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2015.01.17-23.02.35:497][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002405s)
+[2015.01.17-23.02.35:533][519]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.02.35:534][519]LogAIModule: Creating AISystem for world Main_Menu
+[2015.01.17-23.02.35:534][519]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2015.01.17-15.02.35
+[2015.01.17-23.02.35:535][519]LogWorld: Bringing up level for play took: 0.000483
+[2015.01.17-23.02.35:537][519]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.167
+[2015.01.17-23.03.13:828][185]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Example_Map.umap
+[2015.01.17-23.03.13:895][185]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve Example_Map.umap
+[2015.01.17-23.03.13:895][185]LogNet: Browse: /Game/Maps/Example_Map
+[2015.01.17-23.03.13:895][185]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2015.01.17-23.03.13:914][185]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A87C438AE0
+[2015.01.17-23.03.13:914][185]Cmd: MEM
+[2015.01.17-23.03.13:932][185]LogMemory: Platform Memory Stats for Windows
+[2015.01.17-23.03.13:932][185]LogMemory: Process Physical Memory: 652.50 MB used, 691.17 MB peak
+[2015.01.17-23.03.13:932][185]LogMemory: Process Virtual Memory: 550.06 MB used, 594.86 MB peak
+[2015.01.17-23.03.13:932][185]LogMemory: Physical Memory: 3889.48 MB used, 8153.19 MB total
+[2015.01.17-23.03.13:932][185]LogMemory: Virtual Memory: 1091.64 MB used, 134217728.00 MB total
+[2015.01.17-23.03.13:932][185]LogMemory: 
+[2015.01.17-23.03.13:932][185]Allocator Stats for TBB: (not implemented)
+[2015.01.17-23.03.14:129][185]LogLinker:Warning: Asset 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.17-23.03.14:176][185]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.03.14:177][185]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.03.14:179][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.03.14
+[2015.01.17-23.03.14:180][185]LogWorld: Bringing up level for play took: 0.002050
+[2015.01.17-23.03.17:014][421]LogScript:Warning: Accessed None 'MyCharacter'
+	OptionsMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.OptionsMenu_C_4
+	Function /Game/UMD/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu:0180
+[2015.01.17-23.03.17:014][421]LogBlueprintUserMessages: Im in the main menu!
+[2015.01.17-23.03.23:022][948]LogScript:Warning: Accessed None 'MyCharacter'
+	OptionsMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.OptionsMenu_C_4
+	Function /Game/UMD/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu:0180
+[2015.01.17-23.03.23:022][948]LogBlueprintUserMessages: Im in the main menu!
+[2015.01.17-23.03.24:380][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A806E5F380
+[2015.01.17-23.03.29:911][418]BlueprintLog: New page: Compile OptionsMenu
+[2015.01.17-23.03.30:053][418]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.03.30:054][418]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.03.30:090][418]BlueprintEditorCompileResults: Info [0596.10] Compile of OptionsMenu successful! [in 172 ms]
+[2015.01.17-23.03.36:174][663]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.17-23.03.36:794][690]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.17-23.03.38:724][771]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.17-23.03.39:892][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.01.17-23.03.39:892][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.17-23.03.39:917][815]Cmd: MAP LOAD FILE="F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.17-23.03.39:917][815]LightingResults: New page: Lighting Build
+[2015.01.17-23.03.39:939][815]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.01.17-23.03.40:257][815]MapCheck: New page: Map Check
+[2015.01.17-23.03.40:257][815]LightingResults: New page: Lighting Build
+[2015.01.17-23.03.40:273][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A8654D4400
+[2015.01.17-23.03.40:297][815]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.17-23.03.40:297][815]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.03.40:328][815]Cmd: MAP CHECKDEP
+[2015.01.17-23.03.40:328][815]MapCheck: New page: Example_Map - Jan 17, 2015, 7:03:40 AM
+[2015.01.17-23.03.40:427][815]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.83ms to complete.
+[2015.01.17-23.03.40:427][815]LogFileHelpers: Loading map 'Example_Map' took 0.511
+[2015.01.17-23.27.55:269][462]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2015.01.17-23.27.55:270][462]LogBlueprint:Error: [compiler] Error Variable node  Set IsInGame  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.01.17-23.27.55:364][462]LogBlueprint:Warning: [compiler] Warning [2061.37] Compile of Example_Map failed. 2 Fatal Issue(s) 0 Warning(s) [in 123 ms]
+[2015.01.17-23.27.55:438][462]LogSavePackage: Save=198.408096ms
+[2015.01.17-23.27.55:438][462]LogSavePackage: Moving 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/Example_Map_Auto1D034F88848BC950AFEB267B51829E260.tmp' to 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2015.01.17-23.27.55:447][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.316
+[2015.01.17-23.27.55:447][462]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.316
+[2015.01.17-23.28.15:374][649]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2015.01.17-23.28.15:374][649]LogBlueprint:Error: [compiler] Error Variable node  Set IsInGame  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.01.17-23.28.15:461][649]LogBlueprint:Warning: [compiler] Warning [2081.47] Compile of Example_Map failed. 2 Fatal Issue(s) 0 Warning(s) [in 90 ms]
+[2015.01.17-23.28.15:536][649]LogSavePackage: Save=165.768585ms
+[2015.01.17-23.28.15:536][649]LogSavePackage: Moving 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/Example_MapE4EF1CA34FE96083DA1BFD9C0AD8D4AD.tmp' to 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Maps/Example_Map.umap'
+[2015.01.17-23.28.15:577][649]LogFileHelpers: Saving map 'Example_Map' took 0.334
+[2015.01.17-23.28.17:830][836]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.28.17:901][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.17:902][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.17:934][836]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.28.18:008][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:009][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:118][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:119][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:178][836]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.28.18:184][836]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2015.01.17-23.28.18:184][836]LogBlueprint:Error: [compiler] Error Variable node  Set IsInGame  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.01.17-23.28.18:254][836]LogBlueprint:Warning: [compiler] Warning [2084.26] Compile of Example_Map failed. 2 Fatal Issue(s) 0 Warning(s) [in 73 ms]
+[2015.01.17-23.28.18:263][836]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.28.18:377][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:378][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:423][836]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.28.18:526][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:528][836]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.18:574][836]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.28.18:672][836]LogPlayLevel: PIE:  Blueprint regeneration took 841 ms (5 blueprints)
+[2015.01.17-23.28.21:797][836]BlueprintLog: Info Blueprint Example_Map failed to compile
+[2015.01.17-23.28.23:962][986]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.28.23:970][986]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2015.01.17-23.28.23:970][986]LogBlueprint:Error: [compiler] Error Variable node  Set IsInGame  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.01.17-23.28.24:065][986]LogBlueprint:Warning: [compiler] Warning [2090.07] Compile of Example_Map failed. 2 Fatal Issue(s) 0 Warning(s) [in 100 ms]
+[2015.01.17-23.28.24:065][986]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2015.01.17-23.28.24:065][986]BlueprintEditorCompileResults:Error: Error Variable node  Set IsInGame  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.01.17-23.28.24:065][986]BlueprintEditorCompileResults:Warning: Warning [2090.07] Compile of Example_Map failed. 2 Fatal Issue(s) 0 Warning(s) [in 100 ms]
+[2015.01.17-23.28.31:055][452]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.28.31:120][452]BlueprintEditorCompileResults: Info [2097.13] Compile of Example_Map successful! [in 61 ms]
+[2015.01.17-23.28.33:238][623]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.28.33:283][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:284][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:315][623]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.28.33:397][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:398][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:503][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:505][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:562][623]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.28.33:613][623]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.28.33:726][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:728][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:760][623]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.28.33:863][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:864][623]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.33:903][623]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.28.34:008][623]LogPlayLevel: PIE:  Blueprint regeneration took 770 ms (5 blueprints)
+[2015.01.17-23.28.34:009][623]PIE: New page: PIE session: Example_Map (Jan 17, 2015, 7:28:34 AM)
+[2015.01.17-23.28.34:030][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021301s)
+[2015.01.17-23.28.34:031][623]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2015.01.17-23.28.34:031][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022487s)
+[2015.01.17-23.28.34:085][623]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.28.34:086][623]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.28.34:087][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.28.34
+[2015.01.17-23.28.34:088][623]LogWorld: Bringing up level for play took: 0.001564
+[2015.01.17-23.28.34:090][623]LogBlueprintUserMessages: set is in game
+[2015.01.17-23.28.34:091][623]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.72
+[2015.01.17-23.28.38:297][985]LogScript:Warning: Accessed None 'MyCharacter'
+	OptionsMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.OptionsMenu_C_2
+	Function /Game/UMD/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu:0180
+[2015.01.17-23.28.38:297][985]LogBlueprintUserMessages: Im in the main menu!
+[2015.01.17-23.28.41:036][229]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A80C63CF40
+[2015.01.17-23.28.45:122][529]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.28.45:166][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:167][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:203][529]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.28.45:276][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:277][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:382][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:384][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:440][529]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.28.45:496][529]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.28.45:600][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:601][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:632][529]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.28.45:735][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:736][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.28.45:773][529]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.28.45:880][529]LogPlayLevel: PIE:  Blueprint regeneration took 758 ms (5 blueprints)
+[2015.01.17-23.28.45:881][529]PIE: New page: PIE session: Example_Map (Jan 17, 2015, 7:28:45 AM)
+[2015.01.17-23.28.45:901][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020181s)
+[2015.01.17-23.28.45:902][529]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2015.01.17-23.28.45:902][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021226s)
+[2015.01.17-23.28.45:942][529]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.28.45:943][529]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.28.45:945][529]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.28.45
+[2015.01.17-23.28.45:946][529]LogWorld: Bringing up level for play took: 0.002177
+[2015.01.17-23.28.45:948][529]LogBlueprintUserMessages: set is in game
+[2015.01.17-23.28.45:949][529]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.579
+[2015.01.17-23.29.06:767][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A81246D440
+[2015.01.17-23.29.08:899][858]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.17-23.29.22:999][642]LogSavePackage: Save=115.940376ms
+[2015.01.17-23.29.22:999][642]LogSavePackage: Moving 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/Example_Map1137AFB74496E406099228B96479D715.tmp' to 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Maps/Example_Map.umap'
+[2015.01.17-23.29.23:043][642]LogFileHelpers: Saving map 'Example_Map' took 0.298
+[2015.01.17-23.29.23:765][679]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.29.23:830][679]BlueprintEditorCompileResults: Info [2149.84] Compile of Example_Map successful! [in 60 ms]
+[2015.01.17-23.29.25:568][798]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.29.25:613][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.25:614][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.25:647][798]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.29.25:726][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.25:727][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.25:849][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.25:850][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.25:916][798]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.29.25:969][798]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.29.26:069][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.26:070][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.26:111][798]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.29.26:209][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.26:210][798]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.29.26:255][798]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.29.26:356][798]LogPlayLevel: PIE:  Blueprint regeneration took 787 ms (5 blueprints)
+[2015.01.17-23.29.26:356][798]PIE: New page: PIE session: Example_Map (Jan 17, 2015, 7:29:26 AM)
+[2015.01.17-23.29.26:380][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023733s)
+[2015.01.17-23.29.26:381][798]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2015.01.17-23.29.26:382][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.025020s)
+[2015.01.17-23.29.26:416][798]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.29.26:417][798]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.29.26:419][798]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.29.26
+[2015.01.17-23.29.26:419][798]LogWorld: Bringing up level for play took: 0.001740
+[2015.01.17-23.29.26:421][798]LogBlueprintUserMessages: set is in game
+[2015.01.17-23.29.26:421][798]LogBlueprintUserMessages: set is in game
+[2015.01.17-23.29.26:422][798]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.052
+[2015.01.17-23.29.29:066][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A81382E200
+[2015.01.17-23.30.25:307][342]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.30.25:403][342]BlueprintEditorCompileResults: Info [2211.41] Compile of Example_Map successful! [in 91 ms]
+[2015.01.17-23.30.27:049][455]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.30.27:092][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:093][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:125][455]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.30.27:200][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:201][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:303][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:304][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:417][455]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.30.27:496][455]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.30.27:611][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:612][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:666][455]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.30.27:766][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:767][455]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.30.27:812][455]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.30.27:920][455]LogPlayLevel: PIE:  Blueprint regeneration took 871 ms (5 blueprints)
+[2015.01.17-23.30.27:920][455]PIE: New page: PIE session: Example_Map (Jan 17, 2015, 7:30:27 AM)
+[2015.01.17-23.30.27:948][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026085s)
+[2015.01.17-23.30.27:949][455]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2015.01.17-23.30.27:949][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.027381s)
+[2015.01.17-23.30.27:989][455]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.30.27:990][455]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.30.27:992][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.30.27
+[2015.01.17-23.30.27:993][455]LogWorld: Bringing up level for play took: 0.002158
+[2015.01.17-23.30.27:996][455]LogBlueprintUserMessages: cast works
+[2015.01.17-23.30.27:996][455]LogBlueprintUserMessages: set is in game
+[2015.01.17-23.30.27:996][455]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.625
+[2015.01.17-23.30.32:894][873]LogScript:Warning: Accessed None 'MyCharacter'
+	OptionsMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.OptionsMenu_C_2
+	Function /Game/UMD/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu:0180
+[2015.01.17-23.30.32:894][873]LogBlueprintUserMessages: Im in the main menu!
+[2015.01.17-23.30.36:487][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A802493A60
+[2015.01.17-23.30.41:174][463]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.30.41:235][463]BlueprintEditorCompileResults: Info [2227.24] Compile of Example_Map successful! [in 57 ms]
+[2015.01.17-23.31.04:607][112]LogSavePackage: Save=92.716019ms
+[2015.01.17-23.31.04:607][112]LogSavePackage: Moving 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/Example_MapA8C7508C492012D8269973930FAEE68A.tmp' to 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Maps/Example_Map.umap'
+[2015.01.17-23.31.07:537][351]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMD'
+[2015.01.17-23.33.10:700][755]BlueprintLog: New page: Compile MyCharacter
+[2015.01.17-23.33.10:774][755]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.33.10:776][755]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.33.10:942][755]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.33.10:943][755]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.33.11:016][755]BlueprintEditorCompileResults: Info [2377.03] Compile of MyCharacter successful! [in 287 ms]
+[2015.01.17-23.33.12:073][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.17-23.33.12:442][779]LogSavePackage: Save=338.373474ms
+[2015.01.17-23.33.12:442][779]LogSavePackage: Moving 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Saved/MyCharacter40A23BCE4EE7DFDF03ADD794075EDF3E.tmp' to 'F:/Dropbox/BlastZoneStudios/Unreal Engine/UE4_BZS_Template/BZS_Template/Content/Blueprints/MyCharacter.uasset'
+[2015.01.17-23.34.17:779][509]BlueprintLog: New page: Compile OptionsMenu
+[2015.01.17-23.34.17:846][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.17-23.34.17:940][509]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.17:941][509]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.17:974][509]BlueprintEditorCompileResults: Info [2443.98] Compile of OptionsMenu successful! [in 189 ms]
+[2015.01.17-23.34.21:525][707]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.34.21:572][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.21:574][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.21:610][707]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.34.21:688][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.21:689][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.21:807][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.21:808][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.21:870][707]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.34.21:915][707]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.34.22:034][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.22:035][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.22:082][707]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.34.22:171][707]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.34.22:283][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.22:284][707]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.34.22:342][707]LogPlayLevel: PIE:  Blueprint regeneration took 816 ms (5 blueprints)
+[2015.01.17-23.34.22:342][707]PIE: New page: PIE session: Example_Map (Jan 17, 2015, 7:34:22 AM)
+[2015.01.17-23.34.22:366][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024065s)
+[2015.01.17-23.34.22:367][707]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2015.01.17-23.34.22:368][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.025451s)
+[2015.01.17-23.34.22:406][707]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.34.22:408][707]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.34.22:410][707]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.34.22
+[2015.01.17-23.34.22:411][707]LogWorld: Bringing up level for play took: 0.002485
+[2015.01.17-23.34.22:414][707]LogBlueprintUserMessages: cast works
+[2015.01.17-23.34.22:414][707]LogBlueprintUserMessages: set is in game
+[2015.01.17-23.34.22:415][707]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.043
+[2015.01.17-23.34.29:685][325]LogScript:Warning: Accessed None 'MyCharacter'
+	OptionsMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.OptionsMenu_C_5
+	Function /Game/UMD/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu:0180
+[2015.01.17-23.34.29:685][325]LogBlueprintUserMessages: Im in the main menu!
+[2015.01.17-23.34.32:470][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A80D0CFA60
+[2015.01.17-23.37.01:539][501]BlueprintLog: New page: Compile MyCharacter
+[2015.01.17-23.37.01:610][501]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.01:611][501]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.01:778][501]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.01:780][501]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.01:833][501]BlueprintEditorCompileResults: Info [2607.84] Compile of MyCharacter successful! [in 267 ms]
+[2015.01.17-23.37.06:889][715]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.37.06:957][715]BlueprintEditorCompileResults: Info [2612.97] Compile of Example_Map successful! [in 63 ms]
+[2015.01.17-23.37.09:192][831]BlueprintLog: New page: Compile OptionsMenu
+[2015.01.17-23.37.09:361][831]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.09:362][831]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.09:397][831]BlueprintEditorCompileResults: Info [2615.41] Compile of OptionsMenu successful! [in 198 ms]
+[2015.01.17-23.37.10:128][863]BlueprintLog: New page: Compile MainMenu
+[2015.01.17-23.37.10:246][863]BlueprintEditorCompileResults: Info [2616.26] Compile of MainMenu successful! [in 110 ms]
+[2015.01.17-23.37.14:136][144]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.37.14:185][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:187][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:222][144]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.37.14:297][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:298][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:420][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:421][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:477][144]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.37.14:531][144]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.37.14:646][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:647][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:683][144]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.37.14:782][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:782][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.37.14:833][144]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.37.14:935][144]LogPlayLevel: PIE:  Blueprint regeneration took 798 ms (5 blueprints)
+[2015.01.17-23.37.14:935][144]PIE: New page: PIE session: Example_Map (Jan 17, 2015, 7:37:14 AM)
+[2015.01.17-23.37.14:960][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025386s)
+[2015.01.17-23.37.14:961][144]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2015.01.17-23.37.14:962][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.026683s)
+[2015.01.17-23.37.15:004][144]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.37.15:005][144]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.37.15:006][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.37.15
+[2015.01.17-23.37.15:007][144]LogWorld: Bringing up level for play took: 0.001565
+[2015.01.17-23.37.15:009][144]LogBlueprintUserMessages: cast works
+[2015.01.17-23.37.15:009][144]LogBlueprintUserMessages: set is in game
+[2015.01.17-23.37.15:009][144]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.639
+[2015.01.17-23.37.18:042][394]LogScript:Warning: Accessed None 'MyCharacter'
+	OptionsMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.OptionsMenu_C_5
+	Function /Game/UMD/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu:0180
+[2015.01.17-23.37.18:042][394]LogBlueprintUserMessages: Im in the main menu!
+[2015.01.17-23.37.19:936][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A81A6C2980
+[2015.01.17-23.38.58:011][987]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.38.58:081][987]BlueprintEditorCompileResults: Info [2724.09] Compile of Example_Map successful! [in 65 ms]
+[2015.01.17-23.39.21:071][174]BlueprintLog: New page: Compile Example_Map
+[2015.01.17-23.39.21:134][174]BlueprintEditorCompileResults: Info [2747.14] Compile of Example_Map successful! [in 59 ms]
+[2015.01.17-23.39.23:012][304]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.17-23.39.23:071][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:072][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:102][304]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.01.17-23.39.23:190][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:190][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:324][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:324][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:389][304]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.17-23.39.23:440][304]LogPlayLevel: [PIE] Compiling OptionsMenu before PIE...
+[2015.01.17-23.39.23:545][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:545][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:582][304]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.01.17-23.39.23:685][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:685][304]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.23:730][304]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.01.17-23.39.23:840][304]LogPlayLevel: PIE:  Blueprint regeneration took 828 ms (5 blueprints)
+[2015.01.17-23.39.23:840][304]PIE: New page: PIE session: Example_Map (Jan 17, 2015, 7:39:23 AM)
+[2015.01.17-23.39.23:868][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026995s)
+[2015.01.17-23.39.23:869][304]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2015.01.17-23.39.23:869][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.028157s)
+[2015.01.17-23.39.23:907][304]LogWorld: Game class is 'MyGame_C'
+[2015.01.17-23.39.23:908][304]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.17-23.39.23:910][304]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.17-15.39.23
+[2015.01.17-23.39.23:911][304]LogWorld: Bringing up level for play took: 0.002684
+[2015.01.17-23.39.23:921][304]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.55
+[2015.01.17-23.39.33:788][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A81CEC2FC0
+[2015.01.17-23.39.40:011][449]LogEditorTransaction: Undo Create Pin Link
+[2015.01.17-23.39.40:097][449]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.40:098][449]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.39.40:339][449]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 120]
+UEdGraphPin::BreakLinkTo Pin 'then' on node 'Print String' not reciprocally linked with pin 'execute' on node 'Set IsInGame'
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c324776) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c1a2e98) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffc875ece6f) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffc875ecc5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffc875ec8de) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b79a104) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b79460e) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b757dc6) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b75a7dd) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b75a122) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc85f76e5f) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x00007ffc84d4ea6b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858c0065) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858e5b4a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858d37d0) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858d3f00) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858bfcdd) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc85912ff8) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x00007ffc84ce2651) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x00007ffc84ce6136) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc405d3) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc898cc) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc860d4cfe) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc860d1bc2) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc28be2) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bbe5f4d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bbe788a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc8a209) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc7b0c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c28e6c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c27a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c28fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c276cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffca5512434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffca5512297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c290076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff70334cbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff70334089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff70334090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff70334e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff70334f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffca53d16ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffca77e4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffca77e4409) + 0 bytes [UnknownFile:0]
+
+[2015.01.17-23.40.14:488][426]Cmd: TRANSACTION UNDO
+[2015.01.17-23.40.14:488][426]LogEditorTransaction: Undo Create Pin Link
+[2015.01.17-23.40.14:615][426]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.40.14:616][426]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.40.14:673][426]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 120]
+UEdGraphPin::BreakLinkTo Pin 'then' on node 'Print String' not reciprocally linked with pin 'execute' on node 'Set IsInGame'
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c324776) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c1a2e98) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffc875ece6f) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffc875ecc5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffc875ec8de) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b79a104) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b79460e) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b757dc6) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b75a7dd) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x00007ffc8b75a122) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc85f76e5f) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x00007ffc84d4ea6b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858c0065) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858e5b4a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858d37d0) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858d3f00) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858bfcdd) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc85912ff8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858d31f7) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc858cdf42) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc85c56180) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x00007ffc9ad7e8be) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x00007ffc9ad7edaf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc405d3) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc898cc) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x00007ffc9ad94c42) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x00007ffc9ad55d9f) + 0 bytes [UnknownFile:0]
+UE4Editor-MainFrame.dll!UnknownFunction (0x00007ffc9ad7e711) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc4ea7a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc8a255) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc8bc7b0c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c28e6c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c27a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c28fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c276cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffca5512434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffca5512297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffc8c290076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff70334cbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff70334089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff70334090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff70334e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff70334f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffca53d16ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffca77e4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffca77e4409) + 0 bytes [UnknownFile:0]
+
+[2015.01.17-23.40.14:825][426]LogEditorTransaction: Undo Remove Variable
+[2015.01.17-23.40.14:930][426]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.40.14:931][426]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.40.14:979][426]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.01.17-23.40.15:140][426]LogEditorTransaction: Undo Create Pin Link
+[2015.01.17-23.40.15:234][426]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.17-23.40.15:235][426]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
